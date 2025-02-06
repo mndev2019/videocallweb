@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Cinzel+Decorative:wght@400;700;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:opsz,wght@6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syne:wght@400..800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Cinzel+Decorative:wght@400;700;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:opsz,wght@6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syne:wght@400..800&display=swap'); */
 
 * {
   margin: 0;
@@ -18,9 +18,12 @@
   --black: 0, 0, 0;
 }
 
-body {
+/* body {
   font-family: "Poppins", serif;
-  /* background: #ef79f029; */
+  background: #ef79f029;
+} */
+body {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 
@@ -46,7 +49,7 @@ body {
 .default-header {
   position: relative;
   padding: 8px 0px;
-  
+
 }
 
 .home-header .navbar .navbar-nav .nav-item .nav-link {
@@ -60,7 +63,8 @@ body {
 .default-header .navbar .navbar-nav .nav-item .nav-link {
   color: black;
 }
-@media(max-width:1200px){
+
+@media(max-width:1200px) {
   .default-header .navbar .navbar-nav .nav-item .nav-link {
     color: rgba(var(--white), 0.6);
   }
@@ -100,16 +104,19 @@ li {
 .custom-container {
   padding: 0 calc(20px + 140*(100vw - 320px) / 1600);
 }
-.home-wrapper .home-img .phone{
+
+.home-wrapper .home-img .phone {
   position: relative;
   overflow: hidden;
 }
+
 .home-wrapper .home-img .phone .phone-image {
   width: 330px;
   height: 650px;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
 .banner_slider {
   /* position: absolute;
   top: 1px;
@@ -128,6 +135,7 @@ li {
 
   border-radius: 40px !important;
 }
+
 .home-wrapper {
   /* background-image: url(../images/m11Vz51dkeLD.jpg); */
   /* background-image: url(../images/bannerimage.png); */
@@ -1080,7 +1088,7 @@ section,
 .landing-title h1 {
   color: #1c77ed;
   display: flex;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-size: calc(72px + 2.5vw);
   font-weight: 900;
   justify-content: center;
@@ -1150,7 +1158,7 @@ section,
 .testimonial-box .test-contain .h4,
 .testimonial-box .test-contain h4 {
   color: rgba(155, 48, 255, 1);
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-weight: 700;
   margin-bottom: 15px;
 }
@@ -1159,7 +1167,7 @@ section,
 .testimonial-box .test-contain .h3,
 .testimonial-box .test-contain h3 {
   color: #223645;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-size: calc(15.2px + .25vw);
   font-weight: 700;
   margin-bottom: 15px;
@@ -1169,7 +1177,7 @@ section,
 .testimonial-box .test-contain .h6,
 .testimonial-box .test-contain h6 {
   color: #647589;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
   font-weight: 400;
   line-height: 1.8;
 }
@@ -1240,15 +1248,17 @@ p {
 }
 
 /* insidebanner */
- .left-sidebar{
+.left-sidebar {
   position: sticky;
   top: 20px;
- }
+}
+
 @media(max-width:769px) {
   .left-sidebar {
     display: none;
   }
 }
+
 .active-link {
   background-color: rgba(155, 48, 255, 1);
   color: white !important;
@@ -1351,7 +1361,7 @@ h5 {
 
 .contactus .para {
   color: #696969;
-  font-family: inter, sans-serif;
+  /* font-family: inter, sans-serif; */
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -1513,5 +1523,6 @@ footer .logo {
 }
 
 .screenshots-slider .slick-slide {
-  padding: 0 10px;  /* Adds spacing without bottom margin */
+  padding: 0 10px;
+  /* Adds spacing without bottom margin */
 }
