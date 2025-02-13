@@ -2,7 +2,8 @@
 import { Link } from 'react-router-dom'
 import appstore from '../assets/images/appstore.webp'
 import playstore from '../assets/images/googleplay.webp'
-import logo from '../assets/images/videocalllogo.png'
+// import logo from '../assets/images/videocalllogo.png'
+import logo from '../assets/images/newjivcamlogo.png'
 
 const Footer = () => {
     return (
@@ -15,7 +16,7 @@ const Footer = () => {
                                 <a href="/">
 
                                     <img src={logo} alt="image" className="img-fluid logo"
-                                        style={{ backgroundColor: "white", borderRadius: "5px" }} />
+                                         />
                                 </a>
 
                                 <p className="mt-2">
