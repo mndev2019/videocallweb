@@ -53,8 +53,18 @@ const Banner = () => {
                                 data-aos-delay="100"
                             >
                                 <div>
-                                    <h1>Connect, Laugh, Repeat!
+                                    <h1 className=''>Connect, Laugh, Repeat! ,
                                     </h1>
+                                    <p>Experience new friendships from every corner of the globe with a single click. Dive into spontaneous, one-on-one video calls—whether you’re here to share a laugh or discover new cultures, JiveCam brings it all together instantly.
+                                    </p>
+                                    <h1 className=''>Go Live & Get Paid
+                                    </h1>
+                                    <p>Turn your passion into profit by going live. Earn money from every call you receive—creativity, humor, or insight can literally pay off.
+                                    </p>
+                                    <h1 className=''>Gifts That Make You Money
+                                    </h1>
+                                    <p>Spice up your calls with fun gifts. Each one you receive instantly converts into real cash—a playful way to make every conversation rewarding.
+                                    </p>
 
                                     <ul className="home-info">
                                         {[
