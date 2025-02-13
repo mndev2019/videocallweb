@@ -23,67 +23,7 @@ const ThemeNavbar = () => {
         }
     };
     return (
-        // <header className={isHomePage ? "home-header" : "default-header"}>
-        //     <div className="custom-container">
-        //         <nav className="navbar navbar-expand-xl p-0 ">
-        //             {/* Toggle Button for Mobile */}
-        //             <button
-        //                 className="navbar-toggler"
-        //                 type="button"
-        //                 data-bs-toggle="collapse"
-        //                 data-bs-target="#navbarNavDropdown"
-        //             >
-        //                 <span className="navbar-toggler-icon">
-        //                     <i className="ri-menu-line"></i>
-        //                 </span>
-        //             </button>
-
-        //             {/* Logo */}
-        //             <a href="/" style={{ backgroundColor: "white", borderRadius: "5px" }}>
-        //                 <img src={logo} alt="Logo" className="img-fluid logo" />
-        //             </a>
-
-        //             {/* Navbar Links */}
-        //             <div
-        //                 className="collapse order-xl-1 navbar-collapse justify-content-end"
-        //                 id="navbarNavDropdown"
-        //             >
-        //                 <ul className="navbar-nav mt-2">
-        //                     <li className="nav-item">
-        //                         <Link className="nav-link" to="feature" smooth={true} duration={200}>
-        //                             Features
-        //                         </Link>
-        //                     </li>
-        //                     <li className="nav-item">
-        //                         <Link className="nav-link" to="screenshot" smooth={true} duration={100}>
-        //                             Screenshots
-        //                         </Link>
-        //                     </li>
-        //                     <li className="nav-item">
-        //                         <Link className="nav-link" to="user" smooth={true} duration={100}>
-        //                             Reviews
-        //                         </Link>
-        //                     </li>
-        //                     <li className="nav-item">
-        //                         <Link className="nav-link" to="step" smooth={true} duration={100}>
-        //                             Steps
-        //                         </Link>
-        //                     </li>
-        //                     <li className="nav-item">
-        //                         <Link className="nav-link" to="community" smooth={true} duration={100}>
-        //                             Community
-        //                         </Link>
-        //                     </li>
-        //                     <li className="nav-item">
-        //                         <Link className="nav-link" to="faq" smooth={true} duration={100}>
-        //                             FAQs
-        //                         </Link>
-        //                     </li>
-        //                 </ul>
-        //             </div>
-        //         </nav>
-        //     </div>
-        // </header>
+      
         <>
             <header className={isHomePage ? "home-header" : "default-header"}>
                 <div className="custom-container">
