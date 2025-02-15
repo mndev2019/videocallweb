@@ -17,7 +17,7 @@ const Footer = () => {
                             <div className="w-100">
                                 <a href="/">
 
-                                    <img src={logo} alt="image" className="img-fluid logo" style={{borderRadius:"50%"}}
+                                    <img src={logo} alt="image" className="img-fluid logo" style={{ borderRadius: "50%" }}
                                     />
                                 </a>
 
@@ -48,9 +48,9 @@ const Footer = () => {
                                 <div>
                                     <ul>
                                         <li className="d-block mb-2">
-                                            <a href="/">
+                                            <Link to="/">
                                                 Home
-                                            </a>
+                                            </Link>
                                         </li>
 
 
@@ -59,19 +59,19 @@ const Footer = () => {
                                         </li>
 
                                         <li className="d-block mb-2">
-                                            <a href="/terms-condition">
+                                            <Link to="/terms-condition">
                                                 Terms & Conditions
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="d-block mb-2">
-                                            <a href="/privacy-policy">
+                                            <Link to="/privacy-policy">
                                                 Privacy Policy
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="d-block mb-2">
-                                            <a href="/contact">
+                                            <Link to="/contact">
                                                 Contact
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
