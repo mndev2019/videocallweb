@@ -47,11 +47,11 @@ const Safety = () => {
             <div className="custom-container">
                 <div className="container">
                     <div className="col-12">
-                        <div className="landing-title">
-                            <div className="sub-title">
-                                <div className="text-center">
-                                    <h4>Your Safety Is Our Priority</h4>
-                                    <h2>We've implemented comprehensive safety measures to ensure a secure environment for all users</h2>
+                        <div className="">
+                            <div className="">
+                                <div className="text-center pb-lg-5 pb-2">
+                                    <h4 className="title">Your Safety Is Our Priority</h4>
+                                    <h2 className="subtitle">We've implemented comprehensive safety measures to ensure a secure environment for all users</h2>
                                 </div>
                             </div>
                         </div>

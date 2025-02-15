@@ -47,11 +47,11 @@ const Faq = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <div className="landing-title">
-                            <div className="sub-title">
-                                <div className="text-center pb-3">
-                                    <h4>Frequently Asked Questions</h4>
-                                    <h2>FAQs About JiveCam</h2>
+                        <div className="">
+                            <div className="">
+                                <div className="text-center pb-lg-5 pb-2">
+                                    <h4 className="title">Frequently Asked Questions</h4>
+                                    <h2 className="subtitle">FAQs About JiveCam</h2>
                                 </div>
                             </div>
                         </div>

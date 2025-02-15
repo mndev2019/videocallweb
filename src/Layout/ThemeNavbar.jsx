@@ -2,7 +2,8 @@
 // import { Link } from "react-scroll"; 
 import { useLocation, useNavigate } from "react-router-dom";
 // import logo from "../assets/images/videocalllogo.png";
-import logo from '../assets/images/newjivcamlogo.png'
+// import logo from '../assets/images/newjivcamlogo.png'
+import logo from '../assets/images/logo.jpg'
 // import { useLocation } from "react-router-dom";
 
 const ThemeNavbar = () => {
@@ -40,39 +41,39 @@ const ThemeNavbar = () => {
                         </button>
 
                         <a href="/" >
-                            <img src={logo} alt="Logo" className="img-fluid logo" />
+                            <img src={logo} alt="Logo" className="img-fluid logo" style={{borderRadius:"50%"}}/>
                         </a>
 
 
                         <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                             <ul className="navbar-nav mt-2">
                                 <li className="nav-item">
-                                    <a className="nav-link" onClick={() => handleNavigation("feature")}>
+                                    <a className="nav-link " style={{ cursor: "pointer" }}  onClick={() => handleNavigation("feature")}>
                                         Features
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" onClick={() => handleNavigation("screenshot")}>
+                                    <a className="nav-link" style={{ cursor: "pointer" }}  onClick={() => handleNavigation("screenshot")}>
                                         How it Works
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" onClick={() => handleNavigation("user")}>
+                                    <a className="nav-link" style={{ cursor: "pointer" }}  onClick={() => handleNavigation("user")}>
                                         Reviews
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" onClick={() => handleNavigation("step")}>
+                                    <a className="nav-link" style={{ cursor: "pointer" }}  onClick={() => handleNavigation("step")}>
                                         Steps
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" onClick={() => handleNavigation("community")}>
+                                    <a className="nav-link" style={{ cursor: "pointer" }}  onClick={() => handleNavigation("community")}>
                                         Community
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" onClick={() => handleNavigation("faq")}>
+                                    <a className="nav-link" style={{ cursor: "pointer" }}  onClick={() => handleNavigation("faq")}>
                                         FAQs
                                     </a>
                                 </li>

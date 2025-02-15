@@ -73,10 +73,10 @@ const User = () => {
             <div className="custom-container">
                 <div className="container testimonial-main">
                     <div className="col-12">
-                        <div className="landing-title">
-                            <div className="sub-title">
-                                <h4>What Our Users Say</h4>
-                                <h2>Join millions finding connections on JiveCam</h2>
+                        <div className="">
+                            <div className="text-center pb-lg-5 pb-2">
+                                <h4 className="title">What Our Users Say</h4>
+                                <h2 className="subtitle">Join millions finding connections on JiveCam</h2>
                             </div>
                         </div>
                     </div>

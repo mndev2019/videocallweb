@@ -44,11 +44,11 @@ const Screenshot = () => {
             <div className="custom-container">
                 <div className="container">
                     <div className="col-12">
-                        <div className="landing-title">
-                            <div className="sub-title text-center">
+                        <div className="">
+                            <div className=" text-center pb-lg-5 pb-2">
                                 <div>
-                                    <h4>How It Works</h4>
-                                    <h2 className="pb-3">JiveCam Screenshots</h2>
+                                    <h4 className="title">How It Works</h4>
+                                    {/* <h2 className="subtitle">JiveCam Screenshots</h2> */}
                                 </div>
                             </div>
                         </div>

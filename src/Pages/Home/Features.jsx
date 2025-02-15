@@ -45,11 +45,11 @@ const Features = () => {
             <div className="custom-container">
                 <div className="container">
                     <div className="col-12">
-                        <div className="landing-title">
-                            <div className="sub-title">
-                                <div className="text-center pb-3">
-                                    <h4>Experience JiveCam Features</h4>
-                                    <h2>Discover amazing ways to connect and interact with people around the world</h2>
+                        <div className="">
+                            <div className="">
+                                <div className="text-center pb-lg-5 pb-2">
+                                    <h4 className="title">Experience JiveCam Features</h4>
+                                    <h2 className="subtitle">Discover amazing ways to connect and interact with people around the world</h2>
                                 </div>
                             </div>
                         </div>

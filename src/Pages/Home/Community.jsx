@@ -51,15 +51,15 @@ const Community = () => {
     }, []);
 
     return (
-        <section className="section-py-space light-bg community" id="community">
+        <section className="pt-0 light-bg community pb-5" id="community">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <div className="landing-title">
-                            <div className="sub-title">
-                                <div className="text-center">
-                                    <h4>Join Our Growing Community</h4>
-                                    <h2>Connect with millions on JiveCam</h2>
+                        <div className="">
+                            <div className="">
+                                <div className="text-center pb-lg-3 pb-2">
+                                    <h4 className="title">Join Our Growing Community</h4>
+                                    <h2 className="subtitle">Connect with millions on JiveCam</h2>
                                 </div>
                             </div>
                         </div>

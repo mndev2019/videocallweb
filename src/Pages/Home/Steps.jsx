@@ -27,11 +27,11 @@ const Steps = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <div className="landing-title">
-                                <div className="sub-title">
-                                    <div className="text-center">
-                                        <h4>Get Started in Three Simple Steps</h4>
-                                        <h2>Connect worldwide easy, fun, and free.</h2>
+                            <div className="">
+                                <div className="">
+                                    <div className="text-center pb-lg-3 pb-2" >
+                                        <h4 className='title'>Get Started in Three Simple Steps</h4>
+                                        <h2 className='subtitle'>Connect worldwide easy, fun, and free.</h2>
                                     </div>
                                 </div>
                             </div>

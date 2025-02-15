@@ -4,6 +4,7 @@ import Banner from "./Banner"
 import Community from "./Community"
 import Faq from "./Faq"
 import Features from "./Features"
+import Realconnection from "./Realconnection"
 import Safety from "./Safety"
 import SafetyCommitment from "./SafetyCommitment"
 import Screenshot from "./Screenshot"
@@ -17,6 +18,7 @@ const Home = () => {
             <Steps />
             <Screenshot />
             <Features />
+            <Realconnection/>
             <User />
             <Community />
             <Safety />

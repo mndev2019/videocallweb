@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 import appstore from '../assets/images/appstore.webp'
 import playstore from '../assets/images/googleplay.webp'
 // import logo from '../assets/images/videocalllogo.png'
-import logo from '../assets/images/newjivcamlogo.png'
+// import logo from '../assets/images/newjivcamlogo.png'
+import logo from '../assets/images/logo.jpg'
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -16,7 +17,7 @@ const Footer = () => {
                             <div className="w-100">
                                 <a href="/">
 
-                                    <img src={logo} alt="image" className="img-fluid logo"
+                                    <img src={logo} alt="image" className="img-fluid logo" style={{borderRadius:"50%"}}
                                     />
                                 </a>
 

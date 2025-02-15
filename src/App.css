@@ -26,6 +26,28 @@ body {
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.title {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+@media(max-width:768px){
+  .title {
+    font-size: 20px;
+   
+  }
+}
+.subtitle {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+@media(max-width:768px){
+  .subtitle {
+    font-size: 15px;
+   
+  }
+}
+
 
 /* header */
 @media (max-width: 1199px) {
@@ -444,6 +466,12 @@ li {
   height: 650px;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+}
+
+@media(min-width:1000px)and(max-width:1200px) {
+  .home-wrapper .home-img .phone .phone-image {
+    height: 600px;
+  }
 }
 
 .home-wrapper .home-img .phone .phone-image.large {
@@ -1040,6 +1068,49 @@ section,
   font-size: 2.25rem;
   line-height: 2.5rem;
   margin-bottom: 0 !important;
+}
+
+/*safety commitment */
+.safetycommitment .leftcol img {
+  max-height: 350px;
+  border-radius: 0.75rem;
+}
+
+.safetycommitment .rightcol .title {
+  font-size: 1.875rem !important;
+  line-height: 2.25rem;
+  font-weight: 700;
+}
+
+@media(max-width:768px) {
+  .safetycommitment .rightcol .title {
+    font-size: 20px !important;
+
+  }
+}
+
+.safetycommitment .rightcol .para {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+@media(max-width:768px) {
+  .safetycommitment .rightcol .para {
+    font-size: 15px !important;
+
+  }
+}
+
+.safetycommitment .rightcol li span {
+  font-size: 17px;
+  margin-left: 7px;
+}
+
+@media(max-width:768px) {
+  .safetycommitment .rightcol li span {
+    font-size: 16px !important;
+
+  }
 }
 
 /*faq */
