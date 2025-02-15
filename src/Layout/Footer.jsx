@@ -84,13 +84,13 @@ const Footer = () => {
                                     Download App
                                 </h3>
                                 <div className="pt-3 pb-5">
-                                    <a href="" className="btnlinkfooter">
+                                    <Link to={'/'} className="btnlinkfooter">
                                         <img src={appstore} className="img-fluid" alt="" />
-                                    </a>
+                                    </Link>
                                 </div>
-                                <a href="" className="btnlinkfooter ">
+                                <Link to={'/'} className="btnlinkfooter ">
                                     <img src={playstore} className="img-fluid" alt="" />
-                                </a>
+                                </Link>
 
                             </div>
                         </div>
