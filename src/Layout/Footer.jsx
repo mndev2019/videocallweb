@@ -6,6 +6,7 @@ import playstore from '../assets/images/googleplay.webp'
 import logo from '../assets/images/newjivcamlogo.png'
 
 const Footer = () => {
+    const currentYear = new Date().getFullYear();
     return (
         <>
             <section className="py-5 bg-black footer px-3">
@@ -16,17 +17,25 @@ const Footer = () => {
                                 <a href="/">
 
                                     <img src={logo} alt="image" className="img-fluid logo"
-                                         />
+                                    />
                                 </a>
 
                                 <p className="mt-2">
                                     Connect with people worldwide through live video chat and meaningful conversations.
                                 </p>
                                 <div className="d-flex gap-3  my-3">
-                                    <i className="fa-brands fa-facebook-f socialicons"></i>
-                                    <i className="fa-brands fa-twitter socialicons"></i>
-                                    <i className="fa-brands fa-instagram socialicons"></i>
-                                    <i className="fa-brands fa-youtube socialicons"></i>
+                                    {/* <i className="fa-brands fa-facebook-f socialicons"></i> */}
+                                    <a href="https://x.com/CamJive" target='_blank'>
+                                        <i className="fa-brands fa-twitter socialicons"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/jivecam/" target='_blank'>
+                                        <i className="fa-brands fa-instagram socialicons"></i>
+                                    </a>
+
+
+                                    <a href="https://www.youtube.com/@JiveCam" target='_blank'>
+                                        <i className="fa-brands fa-youtube socialicons"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -87,7 +96,7 @@ const Footer = () => {
                     </div>
                     <div className="row  pt-3 bottomfooter  ">
                         <div className="col-12 innerbottomfooter">
-                            <p> © 2025 JiveCam. All rights reserved. </p>
+                            <p>© {currentYear} NSAH SWAYANTRANA TECHNOLOGIES LLP. All rights reserved.</p>
                         </div>
 
                     </div>

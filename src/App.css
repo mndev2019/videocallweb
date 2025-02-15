@@ -211,7 +211,7 @@ li {
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  padding-top: 6%;
+
 }
 
 .home-wrapper .home-content .btn-solid {
@@ -1049,6 +1049,8 @@ section,
 
 .faq-section .accordion-body {
   background-color: #ef79f04d;
+  font-size: 12px;
+
 }
 
 .faq-section .accordion-button:not(.collapsed) {
@@ -1082,6 +1084,7 @@ section,
 /* testimonial */
 .testimonial-main .testimonial-box {
   margin-right: 10px;
+  max-height: 450px;
 }
 
 .landing-title .h1,
@@ -1107,6 +1110,11 @@ section,
   .landing-title .h1,
   .landing-title h1 {
     display: none !important;
+  }
+
+  .testimonial-main .testimonial-box {
+    margin-right: 10px;
+    max-height: max-content !important;
   }
 }
 
@@ -1525,4 +1533,44 @@ footer .logo {
 .screenshots-slider .slick-slide {
   padding: 0 10px;
   /* Adds spacing without bottom margin */
+}
+
+
+.bannertext h1 {
+  font-size: 28px;
+  margin-bottom: 0px;
+}
+
+.bannertext p {
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: white;
+}
+
+
+.bannertext ul li {
+  list-style: circle;
+}
+
+.bannertext ul {
+  margin: 10px 30px;
+}
+
+
+.accordion-item,
+.accordion-button.collapsed {
+  border-radius: 20px !important;
+}
+
+.accordion-body {
+  border-radius: 0px 0px 20px 20px !important;
+}
+
+.accordion-button {
+  border-radius: 20px 20px 0 0 !important;
+}
+
+
+.swiper-slide.screenshots {
+  max-height: 520px !important;
 }

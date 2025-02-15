@@ -47,7 +47,7 @@ const Screenshot = () => {
                         <div className="landing-title">
                             <div className="sub-title text-center">
                                 <div>
-                                    <h4>App</h4>
+                                    <h4>How It Works</h4>
                                     <h2 className="pb-3">JiveCam Screenshots</h2>
                                 </div>
                             </div>

@@ -23,7 +23,7 @@ const ThemeNavbar = () => {
         }
     };
     return (
-      
+
         <>
             <header className={isHomePage ? "home-header" : "default-header"}>
                 <div className="custom-container">
@@ -53,7 +53,7 @@ const ThemeNavbar = () => {
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" onClick={() => handleNavigation("screenshot")}>
-                                        Screenshots
+                                        How it Works
                                     </a>
                                 </li>
                                 <li className="nav-item">

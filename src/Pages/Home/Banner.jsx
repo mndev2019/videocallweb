@@ -52,21 +52,33 @@ const Banner = () => {
                                 data-aos-duration="1000"
                                 data-aos-delay="100"
                             >
-                                <div>
-                                    <h1 className=''>Connect, Laugh, Repeat! ,
+                                <div className='bannertext'>
+                                    <h1 className=''><img src={hand} alt="hand" /> Connect, Laugh, Repeat! ,
                                     </h1>
-                                    <p>Experience new friendships from every corner of the globe with a single click. Dive into spontaneous, one-on-one video calls—whether you’re here to share a laugh or discover new cultures, JiveCam brings it all together instantly.
-                                    </p>
-                                    <h1 className=''>Go Live & Get Paid
+                                    <ul>
+                                        <li>
+                                            <p>Experience new friendships from every corner of the globe with a single click. Dive into spontaneous, one-on-one video calls—whether you’re here to share a laugh or discover new cultures, JiveCam brings it all together instantly.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <h1 className=''> <img src={hand} alt="hand" /> Go Live & Get Paid
                                     </h1>
-                                    <p>Turn your passion into profit by going live. Earn money from every call you receive—creativity, humor, or insight can literally pay off.
-                                    </p>
-                                    <h1 className=''>Gifts That Make You Money
+                                    <ul>
+                                        <li>
+                                            <p>Turn your passion into profit by going live. Earn money from every call you receive—creativity, humor, or insight can literally pay off.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <h1 className=''> <img src={hand} alt="hand" /> Gifts That Make You Money
                                     </h1>
-                                    <p>Spice up your calls with fun gifts. Each one you receive instantly converts into real cash—a playful way to make every conversation rewarding.
-                                    </p>
+                                    <ul>
+                                        <li><p> Spice up your calls with fun gifts. Each one you receive instantly converts into real cash—a playful way to make every conversation rewarding.
+                                        </p></li>
 
-                                    <ul className="home-info">
+
+                                    </ul>
+
+                                    {/* <ul className="home-info">
                                         {[
                                             "Go Live & Get Paid",
                                             "Gifts That Make You Money",
@@ -80,7 +92,7 @@ const Banner = () => {
                                                 </div>
                                             </li>
                                         ))}
-                                    </ul>
+                                    </ul> */}
 
                                     <div className="d-flex">
                                         <a href="#" className="btnlink">

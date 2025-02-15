@@ -1,24 +1,24 @@
 // import React from 'react'
-import image1 from '../../assets/images/download.jpg'
-import image2 from '../../assets/images/profile.jpg'
-import image3 from '../../assets/images/chat.jpg'
+import image1 from '../../assets/images/app_download.png'
+import image2 from '../../assets/images/connect_laugh.png'
+import image3 from '../../assets/images/build_trust.png'
 
 const Steps = () => {
     const step = [
         {
             image: image1,
-            title: "Download the App",
-            text: "Get JiveCam from your device's app store. Available for both iOS and Android platforms.",
+            title: "Download & Register",
+            text: "Download JiveCam from your app store and create your profile in seconds. Add your interests and preferences.",
         },
         {
             image: image2,
-            title: "Download the App",
-            text: "Get JiveCam from your device's app store. Available for both iOS and Android platforms.",
+            title: " Connect & Laugh",
+            text: "Meet like-minded people effortlessly with our smart matching system. Jump into engaging video chats and share moments of fun and laughter instantly!",
         },
         {
             image: image3,
-            title: "Download the App",
-            text: "Get JiveCam from your device's app store. Available for both iOS and Android platforms.",
+            title: " Repeat & Build Connections",
+            text: "Foster meaningful conversations, share virtual gifts, and create lasting friendships that go beyond borders—again and again!",
         },
     ]
     return (
