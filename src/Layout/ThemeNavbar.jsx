@@ -7,6 +7,7 @@ import logo from '../assets/images/logo.jpg'
 // import { useLocation } from "react-router-dom";
 
 const ThemeNavbar = () => {
+    
     // const location = useLocation();
     // const isHomePage = location.pathname === '/';
     const location = useLocation();
