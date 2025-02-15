@@ -47,7 +47,7 @@ const Screenshot = () => {
                         <div className="">
                             <div className=" text-center pb-lg-5 pb-2">
                                 <div>
-                                    <h4 className="title">How It Works</h4>
+                                    <h4 className="title2">How It Works</h4>
                                     {/* <h2 className="subtitle">JiveCam Screenshots</h2> */}
                                 </div>
                             </div>

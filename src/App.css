@@ -31,12 +31,26 @@ body {
   line-height: 2.5rem;
   font-weight: 700;
 }
+.title2 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
 @media(max-width:768px){
   .title {
     font-size: 20px;
+    line-height: 1.7rem;
    
   }
 }
+@media(max-width:768px){
+  .title2{
+    font-size: 25px;
+    line-height: 1.7rem;
+   
+  }
+}
+
 .subtitle {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -44,6 +58,8 @@ body {
 @media(max-width:768px){
   .subtitle {
     font-size: 15px;
+    line-height: 1.4rem;
+   ;
    
   }
 }
@@ -1610,6 +1626,12 @@ footer .logo {
 .bannertext h1 {
   font-size: 28px;
   margin-bottom: 0px;
+}
+@media(max-width:768px){
+  .bannertext h1 {
+    font-size: 19px;
+   
+  }
 }
 
 .bannertext p {
