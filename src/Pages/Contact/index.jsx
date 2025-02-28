@@ -19,7 +19,7 @@ const Contact = () => {
                                     <div className="col-12">
                                         <div className="form-wrapper wow fadeInDown" data-wow-duration="1.5s" data-wow-delay=".2s">
                                             <div className="form-title2 mb-3">
-                                                <h4 className="main-title mb-3">Get in touch with us</h4>
+                                                <h4 className="main-title2 mb-3">Get in touch with us</h4>
 
                                                 <p className="para">Feel free to ask me any question or let&apos;s do to talk about our future
                                                     collaboration.</p>

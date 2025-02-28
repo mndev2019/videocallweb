@@ -43,7 +43,7 @@ const Steps = () => {
                                 <>
                                     <div className="col-md-4 pt-4 ">
                                         <div className="card shadow startcard p-4 h-100">
-                                            <img src={itm.image} className="card-img-top img-fluid" alt="..." style={{ height: "226px", }} />
+                                            <img src={itm.image} className="card-img-top img-fluid" alt="..." />
                                             <div className="card-body">
                                                 <h3 className="card-title">{itm.title}</h3>
                                                 <p className="card-text">{itm.text}

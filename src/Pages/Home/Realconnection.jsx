@@ -1,5 +1,5 @@
 // import React from 'react'
-import security from "../../assets/images/security.png"
+import security from "../../assets/images/realconnection.png"
 const Realconnection = () => {
     return (
         <>
@@ -20,8 +20,8 @@ const Realconnection = () => {
                                                 <li className="mb-lg-4 mb-2"><i className="fa-solid fa-check"></i> <span>Real-time translation</span></li>
                                             </ul>
                                         </div>
-                                        <div className="col-md-6 leftcol order-lg-2 order-1">
-                                            <img src={security} alt="" className="img-fluid  w-100" />
+                                        <div className="col-md-6 leftcol order-lg-2 order-1 text-end">
+                                            <img src={security} alt="" className="img-fluid"  style={{objectFit:"contain" , borderRadius:"20px"}}/>
                                         </div>
                                     </div>
                                 </div>

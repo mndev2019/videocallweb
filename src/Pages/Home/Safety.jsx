@@ -43,7 +43,7 @@ const Safety = () => {
     ];
 
     return (
-        <section id="feature" className="features-wrapper section-b-space lightpink">
+        <section id="safety" className="features-wrapper section-b-space lightpink">
             <div className="custom-container">
                 <div className="container">
                     <div className="col-12">
@@ -51,7 +51,7 @@ const Safety = () => {
                             <div className="">
                                 <div className="text-center pb-lg-5 pb-2">
                                     <h4 className="title">Your Safety Is Our Priority</h4>
-                                    <h2 className="subtitle">We've implemented comprehensive safety measures to ensure a secure environment for all users</h2>
+                                    <h2 className="subtitle">We&apos;ve implemented comprehensive safety measures to ensure a secure environment for all users</h2>
                                 </div>
                             </div>
                         </div>

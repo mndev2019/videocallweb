@@ -69,6 +69,11 @@ const ThemeNavbar = () => {
                                     </a>
                                 </li>
                                 <li className="nav-item">
+                                    <a className="nav-link" style={{ cursor: "pointer" }}  onClick={() => handleNavigation("safety")}>
+                                        Safety
+                                    </a>
+                                </li>
+                                <li className="nav-item">
                                     <a className="nav-link" style={{ cursor: "pointer" }}  onClick={() => handleNavigation("community")}>
                                         Community
                                     </a>

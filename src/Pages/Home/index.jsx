@@ -1,6 +1,7 @@
 // import React from 'react'
 
 import Banner from "./Banner"
+
 import Community from "./Community"
 import Faq from "./Faq"
 import Features from "./Features"
@@ -15,6 +16,7 @@ const Home = () => {
     return (
         <>
             <Banner />
+           
             <Steps />
             <Screenshot />
             <Features />

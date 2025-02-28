@@ -19,8 +19,8 @@ function SafetyCommitment() {
                                                 <li className="mb-lg-4 mb-2"><i className="fa-solid fa-check"></i> <span>Swift action on reports</span></li>
                                             </ul>
                                         </div>
-                                        <div className="col-md-6 leftcol order-lg-2 order-1">
-                                            <img src={security} alt="" className="img-fluid  w-100" />
+                                        <div className="col-md-6 leftcol order-lg-2 order-1 text-end">
+                                            <img src={security} alt="" className="img-fluid" style={{objectFit:"contain" , borderRadius:"20px"}}/>
                                         </div>
                                     </div>
                                 </div>

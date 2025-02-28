@@ -21,6 +21,9 @@ import "slick-carousel/slick/slick-theme.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
+import bannervideo from '../../assets/video/WideScreen for Website.mp4'
+
+
 const Banner = () => {
     useEffect(() => {
         AOS.init({
@@ -32,7 +35,7 @@ const Banner = () => {
     const bannerSlides = [slide1, slide2, slide3, slide4, slide5, slide6];
 
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
@@ -40,6 +43,7 @@ const Banner = () => {
         autoplay: true,
         autoplaySpeed: 2000,
     };
+
     return (
         <>
             <section id="home" className="home-wrapper">
@@ -53,7 +57,7 @@ const Banner = () => {
                                 data-aos-delay="100"
                             >
                                 <div className='bannertext'>
-                                    <h1 className=''><img src={hand} alt="hand" /> Connect, Laugh, Repeat! ,
+                                    <h1 className=''><img src={hand} alt="hand" /> Connect, Laugh, Repeat!
                                     </h1>
                                     <ul>
                                         <li>
@@ -136,8 +140,24 @@ const Banner = () => {
                     </div>
                 </div>
             </section>
+            <section className='p-0'>
+                <div className='MyVideo w-100 lightpink'>
+                    <video
+                        className="w-100 h-100"
+                        autoPlay
+                        loop
+                        muted
+                    >
+                        <source src={bannervideo} type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </section>
+
+
         </>
     );
 };
 
 export default Banner;
+

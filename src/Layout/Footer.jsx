@@ -48,7 +48,10 @@ const Footer = () => {
                                 <div>
                                     <ul>
                                         <li className="d-block mb-2">
-                                            <Link to="/">
+                                            <Link
+                                                to="/"
+                                                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                                            >
                                                 Home
                                             </Link>
                                         </li>
@@ -57,6 +60,7 @@ const Footer = () => {
                                         <li className="d-block mb-2">
                                             <Link to="/about">About Us</Link>
                                         </li>
+                                        
 
                                         <li className="d-block mb-2">
                                             <Link to="/terms-condition">
