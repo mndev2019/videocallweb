@@ -7,7 +7,7 @@ import logo from '../assets/images/logo.jpg'
 // import { useLocation } from "react-router-dom";
 
 const ThemeNavbar = () => {
-    
+
     // const location = useLocation();
     // const isHomePage = location.pathname === '/';
     const location = useLocation();
@@ -42,44 +42,44 @@ const ThemeNavbar = () => {
                         </button>
 
                         <a href="/" >
-                            <img src={logo} alt="Logo" className="img-fluid logo" style={{borderRadius:"50%"}}/>
+                            <img src={logo} alt="Logo" className="img-fluid logo" style={{ borderRadius: "50%" }} />
                         </a>
 
 
                         <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                             <ul className="navbar-nav mt-2">
                                 <li className="nav-item">
-                                    <a className="nav-link " style={{ cursor: "pointer" }}  onClick={() => handleNavigation("feature")}>
+                                    <a className="nav-link " style={{ cursor: "pointer" }} onClick={() => handleNavigation("feature")}>
                                         Features
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" style={{ cursor: "pointer" }}  onClick={() => handleNavigation("screenshot")}>
+                                    <a className="nav-link" style={{ cursor: "pointer" }} onClick={() => handleNavigation("screenshot")}>
                                         How it Works
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" style={{ cursor: "pointer" }}  onClick={() => handleNavigation("user")}>
+                                    <a className="nav-link" style={{ cursor: "pointer" }} onClick={() => handleNavigation("user")}>
                                         Reviews
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" style={{ cursor: "pointer" }}  onClick={() => handleNavigation("step")}>
+                                    <a className="nav-link" style={{ cursor: "pointer" }} onClick={() => handleNavigation("step")}>
                                         Steps
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" style={{ cursor: "pointer" }}  onClick={() => handleNavigation("safety")}>
+                                    <a className="nav-link" style={{ cursor: "pointer" }} onClick={() => handleNavigation("safety")}>
                                         Safety
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" style={{ cursor: "pointer" }}  onClick={() => handleNavigation("community")}>
+                                    <a className="nav-link" style={{ cursor: "pointer" }} onClick={() => handleNavigation("community")}>
                                         Community
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" style={{ cursor: "pointer" }}  onClick={() => handleNavigation("faq")}>
+                                    <a className="nav-link" style={{ cursor: "pointer" }} onClick={() => handleNavigation("faq")}>
                                         FAQs
                                     </a>
                                 </li>
@@ -93,3 +93,5 @@ const ThemeNavbar = () => {
 };
 
 export default ThemeNavbar;
+
+

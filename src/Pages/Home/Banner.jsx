@@ -46,6 +46,19 @@ const Banner = () => {
 
     return (
         <>
+            <section className='p-0'>
+                <div className='MyVideo w-100 lightpink'>
+                    <video
+                        className="w-100 h-100"
+                        autoPlay
+                        loop
+                        muted
+                    >
+                        <source src={bannervideo} type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </section>
             <section id="home" className="home-wrapper">
                 <div className="custom-container">
                     <div className="row">
@@ -140,19 +153,7 @@ const Banner = () => {
                     </div>
                 </div>
             </section>
-            <section className='p-0'>
-                <div className='MyVideo w-100 lightpink'>
-                    <video
-                        className="w-100 h-100"
-                        autoPlay
-                        loop
-                        muted
-                    >
-                        <source src={bannervideo} type="video/mp4" />
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-            </section>
+
 
 
         </>
