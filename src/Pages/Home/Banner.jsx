@@ -74,7 +74,13 @@ const Banner = () => {
                                     </h1>
                                     <ul>
                                         <li>
-                                            <p>Experience new friendships from every corner of the globe with a single click. Dive into spontaneous, one-on-one video calls—whether you’re here to share a laugh or discover new cultures, JiveCam brings it all together instantly.
+                                            <p>Experience new friendships from every corner of the globe with a single click.
+                                            </p>
+
+                                        </li>
+                                        <li>
+                                            <p>
+                                                Dive into spontaneous, one-on-one video calls—whether you’re here to share a laugh or discover new cultures, JiveCam brings it all together instantly.
                                             </p>
                                         </li>
                                     </ul>
@@ -82,15 +88,25 @@ const Banner = () => {
                                     </h1>
                                     <ul>
                                         <li>
-                                            <p>Turn your passion into profit by going live. Earn money from every call you receive—creativity, humor, or insight can literally pay off.
+                                            <p>Turn your passion into profit by going live.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                Earn money from every call you receive—creativity, humor, or insight can literally pay off.
                                             </p>
                                         </li>
                                     </ul>
                                     <h1 className=''> <img src={hand} alt="hand" /> Gifts That Make You Money
                                     </h1>
                                     <ul>
-                                        <li><p> Spice up your calls with fun gifts. Each one you receive instantly converts into real cash—a playful way to make every conversation rewarding.
+                                        <li><p> Spice up your calls with fun gifts.
                                         </p></li>
+                                        <li>
+                                            <p>
+                                                Each one you receive instantly converts into real cash—a playful way to make every conversation rewarding.
+                                            </p>
+                                        </li>
 
 
                                     </ul>
@@ -111,7 +127,7 @@ const Banner = () => {
                                         ))}
                                     </ul> */}
 
-                                    <div className="d-flex">
+                                    <div className="d-flex pt-4">
                                         <a href="#" className="btnlink">
                                             <img src={appstore} className="img-fluid" alt="App Store" />
                                         </a>

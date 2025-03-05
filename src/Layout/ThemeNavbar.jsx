@@ -1,18 +1,24 @@
-// import React from "react";
-// import { Link } from "react-scroll"; 
+import { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-// import logo from "../assets/images/videocalllogo.png";
-// import logo from '../assets/images/newjivcamlogo.png'
-import logo from '../assets/images/logo.jpg'
-// import { useLocation } from "react-router-dom";
+import logo from '../assets/images/logo.jpg';
 
 const ThemeNavbar = () => {
-
-    // const location = useLocation();
-    // const isHomePage = location.pathname === '/';
     const location = useLocation();
     const navigate = useNavigate();
     const isHomePage = location.pathname === "/";
+    const [isSticky, setIsSticky] = useState(false);
+
+    // Handle scroll to make header sticky
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsSticky(window.scrollY > 100);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
 
     const handleNavigation = (section) => {
         if (isHomePage) {
@@ -24,12 +30,12 @@ const ThemeNavbar = () => {
             }, 500);
         }
     };
-    return (
 
+    return (
         <>
-            <header className={isHomePage ? "home-header" : "default-header"}>
+            <header className={`${isHomePage ? "home-header" : "default-header"} ${isSticky ? "sticky-header" : ""}`}>
                 <div className="custom-container">
-                    <nav className="navbar navbar-expand-xl p-0 ">
+                    <nav className="navbar navbar-expand-xl p-0">
                         <button
                             className="navbar-toggler"
                             type="button"
@@ -42,47 +48,31 @@ const ThemeNavbar = () => {
                         </button>
 
                         <a href="/" >
-                            <img src={logo} alt="Logo" className="img-fluid logo" style={{ borderRadius: "50%" }} />
+                            <img
+                                src={logo}
+                                alt="Logo"
+                                className="img-fluid logo"
+                                style={{
+                                    borderRadius: "50%",
+                                    height: isSticky ? "70px" : "70px",
+                                    transition: "height 0.3s ease"
+                                }}
+                            />
                         </a>
-
 
                         <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                             <ul className="navbar-nav mt-2">
-                                <li className="nav-item">
-                                    <a className="nav-link " style={{ cursor: "pointer" }} onClick={() => handleNavigation("feature")}>
-                                        Features
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" style={{ cursor: "pointer" }} onClick={() => handleNavigation("screenshot")}>
-                                        How it Works
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" style={{ cursor: "pointer" }} onClick={() => handleNavigation("user")}>
-                                        Reviews
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" style={{ cursor: "pointer" }} onClick={() => handleNavigation("step")}>
-                                        Steps
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" style={{ cursor: "pointer" }} onClick={() => handleNavigation("safety")}>
-                                        Safety
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" style={{ cursor: "pointer" }} onClick={() => handleNavigation("community")}>
-                                        Community
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" style={{ cursor: "pointer" }} onClick={() => handleNavigation("faq")}>
-                                        FAQs
-                                    </a>
-                                </li>
+                                {["feature", "screenshot", "user", "step", "safety", "community", "faq"].map((section) => (
+                                    <li className="nav-item" key={section}>
+                                        <a
+                                            className="nav-link"
+                                            style={{ cursor: "pointer" }}
+                                            onClick={() => handleNavigation(section)}
+                                        >
+                                            {section.charAt(0).toUpperCase() + section.slice(1)}
+                                        </a>
+                                    </li>
+                                ))}
                             </ul>
                         </div>
                     </nav>
@@ -93,5 +83,3 @@ const ThemeNavbar = () => {
 };
 
 export default ThemeNavbar;
-
-
