@@ -40,7 +40,7 @@ const Screenshot = () => {
     const slides = [slide1, slide2, slide3, slide4, slide5, slide6];
 
     return (
-        <section id="screenshot" className="screenshots-section section-b-space lightpink">
+        <section id="how it works" className="screenshots-section section-b-space lightpink">
             <div className="custom-container">
                 <div className="container">
                     <div className="col-12">

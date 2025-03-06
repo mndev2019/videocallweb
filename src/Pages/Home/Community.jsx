@@ -1,4 +1,4 @@
-import  { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 
 const Community = () => {
@@ -32,10 +32,10 @@ const Community = () => {
                 (entries) => {
                     entries.forEach((entry) => {
                         if (entry.isIntersecting) {
-                            animateNumber("activeUsers", 1, 10, 2000);
-                            animateNumber("countries", 1, 190, 2000);
-                            animateNumber("dailyChats", 1, 50, 2000);
-                            animateNumber("userRating", 1, 4.8, 2000);
+                            animateNumber("JiversConnected", 1, 10, 2000);
+                            animateNumber("JiveCallsMade", 1, 190, 2000);
+                            animateNumber("MessagesGrooved", 1, 50, 2000);
+                            animateNumber("LiveStreamsHosted", 1, 4.8, 2000);
                             observer.disconnect();
                         }
                     });
@@ -51,7 +51,7 @@ const Community = () => {
     }, []);
 
     return (
-        <section className="pt-0 light-bg community pb-5" id="community">
+        <section className="pt-0 light-bg community py-5" id="community">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
@@ -69,10 +69,10 @@ const Community = () => {
                 {/* Community Stats */}
                 <div className="row pb-3">
                     {[
-                        { icon: <i className="fa-solid fa-users"></i>, label: "Active Users", id: "activeUsers" },
-                        { icon: <i className="fa-solid fa-globe"></i>, label: "Countries", id: "countries" },
-                        { icon: <i className="fa-solid fa-video"></i>, label: "Daily Chats", id: "dailyChats" },
-                        { icon: <i className="fa-solid fa-star"></i>, label: "User Rating", id: "userRating" },
+                        { icon: <i className="fa-solid fa-users"></i>, label: "Jivers Connected", id: "activeUsers" },
+                        { icon: <i className="fa-solid fa-globe"></i>, label: "Jive Calls Made", id: "countries" },
+                        { icon: <i className="fa-solid fa-video"></i>, label: "Messages Grooved", id: "dailyChats" },
+                        { icon: <i className="fa-solid fa-star"></i>, label: "Live Streams Hosted", id: "userRating" },
                     ].map((item, index) => (
                         <div className="col-md-3 pt-4" key={index}>
                             <div className="w-100 communitybox">

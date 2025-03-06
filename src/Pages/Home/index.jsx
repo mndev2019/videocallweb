@@ -16,15 +16,16 @@ const Home = () => {
     return (
         <>
             <Banner />
-           
+
             <Steps />
             <Screenshot />
             <Features />
-            <Realconnection/>
+            <Realconnection />
             <User />
-            <Community />
+
             <Safety />
             <SafetyCommitment />
+            <Community />
             <Faq />
 
         </>

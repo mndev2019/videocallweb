@@ -25,7 +25,7 @@ const Footer = () => {
                                     Connect with people worldwide through live video chat and meaningful conversations.
                                 </p>
                                 <div className="d-flex gap-3  my-3">
-                                    {/* <i className="fa-brands fa-facebook-f socialicons"></i> */}
+                                    <i className="fa-brands fa-facebook-f socialicons"></i>
                                     <a href="https://x.com/CamJive" target='_blank'>
                                         <i className="fa-brands fa-twitter socialicons"></i>
                                     </a>
@@ -60,7 +60,7 @@ const Footer = () => {
                                         <li className="d-block mb-2">
                                             <Link to="/about">About Us</Link>
                                         </li>
-                                        
+
 
                                         <li className="d-block mb-2">
                                             <Link to="/terms-condition">

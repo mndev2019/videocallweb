@@ -69,7 +69,7 @@ const User = () => {
     ];
 
     return (
-        <section className="section-py-space light-bg pb-5" id="user">
+        <section className="section-py-space light-bg pb-5" id="reviews">
             <div className="custom-container">
                 <div className="container testimonial-main">
                     <div className="col-12">

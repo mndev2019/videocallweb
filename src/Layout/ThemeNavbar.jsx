@@ -62,7 +62,7 @@ const ThemeNavbar = () => {
 
                         <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                             <ul className="navbar-nav mt-2">
-                                {["feature", "screenshot", "user", "step", "safety", "community", "faq"].map((section) => (
+                                {["feature", "how it works", "reviews", "Get Started", "safety", "community", "FAQs"].map((section) => (
                                     <li className="nav-item" key={section}>
                                         <a
                                             className="nav-link"
