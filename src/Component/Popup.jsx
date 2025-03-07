@@ -23,7 +23,7 @@ const Popup = ({ onClose }) => {
                 <div className="modal-dialog">
                     <div className="modal-content" style={{ background: "#ef79f029" }}>
                         <div className="modal-header">
-                            <h5 className="modal-title">Welcome to JiveCam!</h5>
+                            <h5 className="modal-title" style={{color:"white"}}>Welcome to JiveCam!</h5>
                             <button
                                 type="button"
                                 className="btn-close"
@@ -48,7 +48,7 @@ const Popup = ({ onClose }) => {
                             <p>Happy Jiving,</p>
                             <p>The JiveCam Team</p>
                         </div>
-                        <div className="modal-footer">
+                        {/* <div className="modal-footer">
                             <button
                                 type="button"
                                 className="btn btn-secondary"
@@ -56,7 +56,7 @@ const Popup = ({ onClose }) => {
                             >
                                 Close
                             </button>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
