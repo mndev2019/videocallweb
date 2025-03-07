@@ -215,8 +215,8 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100vh;
-  padding-top: 5%;
+  /* height: 100vh;
+  padding-top: 5%; */
 }
 
 @media (max-width: 991px) {
@@ -512,14 +512,15 @@ li {
 
 .home-wrapper .home-img .phone .phone-image {
   width: 330px;
-  height: 570px;
+  /* height: 570px; */
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
 .banner_slider .screen-img {
 
-  height: 550px;
+  /* height: 550px; */
+  height: 651px;
   width: 100%;
 }
 
@@ -1115,6 +1116,7 @@ section,
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 25px;
 }
 
 .community .communitybox .title {
@@ -1552,9 +1554,9 @@ h5 {
   height: 80px !important;
 }
 
-ul {
+/* ul {
   padding-left: 0;
-}
+} */
 
 .footer {
   text-align: left !important;
@@ -1676,12 +1678,31 @@ footer .logo {
 
 .bannertext h1 {
   font-size: 28px;
-  margin-bottom: 0px;
+  margin-top: 34px;
+  /* margin-bottom: 0px; */
 }
+@media (min-width: 1800px) and (max-width: 2700px) {
+  .bannertext h1 {
+    font-size: 28px;
+    margin-top: 34px;
+    /* margin-bottom: 0px; */
+  }
+}
+@media (min-width: 1000px) and (max-width: 1800px) {
+  .bannertext h1 {
+    font-size: 28px;
+    margin-bottom: 13px;
+  }
+}
+/* .bannertext h1 {
+  font-size: 28px;
+  margin-bottom: 0;
+} */
 
 @media(max-width:768px) {
   .bannertext h1 {
     font-size: 19px;
+    margin-top: 0;
 
   }
 }
@@ -1700,6 +1721,13 @@ footer .logo {
 
 .bannertext ul {
   margin: 10px 30px;
+}
+.MyVideo {
+  height: 100vh;
+  /* object-fit: fill; */
+}
+.MyVideo video{
+  object-fit: fill;
 }
 
 
@@ -1736,4 +1764,42 @@ footer .logo {
   border: 0 !important;
   background: var(--gradient) !important;
   transition: all ease-in-out 0.5s;
+}
+.about ul li{
+  list-style-type: disc !important;
+ 
+}
+.terms .disc li{
+  list-style-type: disc !important;
+}
+.terms .number li{
+  list-style-type:auto !important;
+}
+.terms .circle li{
+  list-style-type:circle !important;
+}
+.terms .circle .disc li{
+  list-style-type:square !important;
+}
+.privacy .circle li{
+  list-style-type:circle !important;
+}
+.privacy .disc li{
+  list-style-type:disc !important;
+}
+.privacy .disc .circle li{
+  list-style-type:circle !important;
+}
+.eula .disc li{
+  list-style-type:disc !important;
+}
+.eula .disc .circle li{
+  list-style-type:circle !important;
+}
+.bottomborder{
+  border-bottom: 1px solid #cfcec4;
+}
+.modal .modal-dialog .modal-content{
+  background: linear-gradient(to bottom right, #9B30FF, #F854D7) !important;
+  color: white;
 }

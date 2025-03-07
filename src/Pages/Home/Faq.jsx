@@ -43,7 +43,7 @@ const Faq = () => {
     const rightColumn = faqData.slice(midIndex);
 
     return (
-        <section className="section-py-space faq-section pb-5 lightpink" id="faq">
+        <section className="section-py-space faq-section pb-5 lightpink" id="FAQs">
             <div className="container">
                 <div className="row">
                     <div className="col-12">

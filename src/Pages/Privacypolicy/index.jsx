@@ -7,7 +7,7 @@ const Privacypolicy = () => {
     return (
         <>
             <Insidebanner title="Privacy Policy" />
-            <section className="pb-5 aboutus">
+            <section className="pb-5 aboutus privacy">
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-3">
@@ -32,12 +32,12 @@ const Privacypolicy = () => {
                                         <p>
                                             You also warrant and represent that any registration information and other information that you submit or otherwise provide to JiveCam is true, accurate, and complete, and you agree to keep it that way at all times.
                                         </p>
-                                        <p>
+                                        <p className="bottomborder pb-4">
                                             If you are subject to EU GDPR, you will be required to provide your explicit consent to the Privacy Policy by clicking on the ‘I Accept’ button. Rights in addition to the below applicable to you are in Part II of this Privacy Policy.
                                         </p>
                                         <h4 className="main-title2">Information We Collect</h4>
                                         <p>The below information is collected by JiveCam:</p>
-                                        <h5 className="fw-bold"><strong>1.</strong>	Information collected with a prompt:</h5>
+                                        <h5 className="fw-bold"><span className="fw-normal">1.</span>	Information collected with a prompt:</h5>
                                         <p>
                                             In order to use JiveCam, we may need you to authenticate your account using your Google Account, or otherwise, and we will be collecting your email address and name. We will also ask you to provide certain information including age, gender, telephone number, your content/category preferences, location, areas of interest, language, region preferences, etc.
                                         </p>
@@ -47,11 +47,11 @@ const Privacypolicy = () => {
                                         <p>
                                             <strong>Customer Support:</strong> You may also provide us with information related to your use of JiveCam, including copies of your messages/posts, and how to contact you so that we can provide you with customer support. For example, you may send us an email with information relating to our app performance, or other issues.
                                         </p>
-                                        <h5 className="fw-bold"><strong>2.</strong>	Information collected without a prompt:</h5>
+                                        <h5 className="fw-bold"><span className="fw-normal">2.</span>	Information collected without a prompt:</h5>
                                         <p>
                                             <strong> Device Information:</strong> We may collect the below with respect to any device through which JiveCam is used or accessed:
                                         </p>
-                                        <ul>
+                                        <ul className="circle">
                                             <li> Device Identifiers.</li>
                                             <li> IP Address.</li>
                                             <li> Operating System.</li>
@@ -66,29 +66,33 @@ const Privacypolicy = () => {
                                             <li> Content Type and Non-Personal information related to ads.</li>
                                         </ul>
 
-                                        <h5 className="fw-bold"><strong>3.</strong>	Profile Information:</h5>
-                                        <p>Information related to your use of JiveCam such as content preferences and consumption, interaction with other users, user activity, etc.</p>
-                                        <p>
+                                        <h5 className="fw-bold"><span className="fw-normal">3.</span>	Profile Information:</h5>
+                                        <ul className="circle">
+                                            <li>
+                                                Information related to your use of JiveCam such as content preferences and consumption, interaction with other users, user activity, etc.
+                                            </li>
+                                        </ul>
+                                        <p><span className="fw-normal">4.</span>
                                             JiveCam may access your device’s camera, microphone, photo and/or video and/or audio library or gallery.
                                         </p>
                                         <p>
-                                            JiveCam may also collect information provided by third parties who may disclose to JiveCam personal or non-personal information collected by them. JiveCam has no control over or responsibility in respect of third-party information practices or information collection methods.
+                                            JiveCam may also collect information provided by third parties who may circlelose to JiveCam personal or non-personal information collected by them. JiveCam has no control over or responsibility in respect of third-party information practices or information collection methods.
                                         </p>
                                         <p>
                                             JiveCam may also collect tracking information including cookies, DART, beacons, etc.
                                         </p>
-                                        <h4 className="main-title2"> Location</h4>
+                                        <h5 className="fw-bold">Location</h5>
                                         <p>
                                             JiveCam may collect and store the current and past location of your device if you permit. You have full control over whether to allow or not allow JiveCam to collect this information by making changes to your device’s settings. If JiveCam is unable to access your location information, JiveCam may become inaccessible or not function as intended.
                                         </p>
-                                        <h4 className="main-title2"> Usage and Log Information</h4>
+                                        <h5 className="fw-bold">Usage and Log Information</h5>
+
                                         <p>
                                             We collect service-related, diagnostic, and performance information. This includes information about your activity (such as how you use JiveCam, how you interact with others using JiveCam, etc.), log files, and diagnostics, crash information, website, and performance logs and reports, etc.
                                         </p>
-                                        <h4 className="main-title2">
-                                            Information We Do Not Collect
-                                        </h4>
-                                        <p>
+                                        <h5 className="fw-bold">  Information We Do Not Collect</h5>
+
+                                        <p className="bottomborder pb-4">
                                             We do not collect any Sensitive Personal Data or information such as password-related to other services, financial information such as bank account or credit card or debit card or other payment instrument details, physical, physiological, and mental health condition, sexual orientation, medical records and history, or biometric information.
                                         </p>
                                         <h4 className="main-title2">
@@ -97,24 +101,27 @@ const Privacypolicy = () => {
                                         <p>
                                             We may use all the information we have to help us operate, provide, improve, understand, customize, support, and market JiveCam.
                                         </p>
-                                        <ul>
+                                        <ul className="bottomborder pb-4 disc">
                                             <li>
                                                 <strong>Our Services: </strong>We operate and provide JiveCam, including providing customer support, and improving, fixing, and customizing JiveCam by using the said information. We understand how users use JiveCam, and analyze and use the information that we have to evaluate and improve JiveCam, research, develop, and test new services and features, and conduct troubleshooting activities. We also use your information to respond to you when you contact us. We may also use your information for:
                                             </li>
+                                            <ul className="circle">
+                                                <li>
+                                                    Displaying content based on interest, location, offers, etc.
+                                                </li>
+                                                <li>
+                                                    Displaying or providing access to promotions, advertisements, offers, etc.,which may be based on your interests and also ad-targeting, ad-placement, and ad-measurement.
+                                                </li>
+                                                <li>
+                                                    Displaying location-specific news and weather-related information.
+                                                </li>
+                                                <li>
+                                                    Improving search results, content loading, performance, etc.
+                                                </li>
+                                            </ul>
+
                                             <li>
-                                                Displaying content based on interest, location, offers, etc.
-                                            </li>
-                                            <li>
-                                                Displaying or providing access to promotions, advertisements, offers, etc.,which may be based on your interests and also ad-targeting, ad-placement, and ad-measurement.
-                                            </li>
-                                            <li>
-                                                Displaying location-specific news and weather-related information.
-                                            </li>
-                                            <li>
-                                                Improving search results, content loading, performance, etc.
-                                            </li>
-                                            <li>
-                                                Send you communications including by e-mail.
+                                                <strong>Send you communications including by e-mail.</strong>
                                             </li>
                                             <li>
                                                 <strong>Safety and Security:</strong> We also use your information to try and ensure the safety and security of our users and their information. We verify accounts and activity, and promote safety and security on and off JiveCam, such as by investigating suspicious activity or violations of our policies, terms, etc., and to try and ensure that JiveCam is being used legally.
@@ -123,7 +130,7 @@ const Privacypolicy = () => {
                                         <h4 className="main-title2">
                                             Managing Your Information
                                         </h4>
-                                        <p>
+                                        <p className="bottomborder pb-4">
                                             If you would like to manage, change, limit, or delete your information, we allow you to do that through the settings feature available on JiveCam. You can change your settings to manage certain information available to other users. You can manage your contacts, groups, and broadcast lists, or use our block feature to manage the users with whom you communicate or who can communicate with you.
                                         </p>
                                         <h4 className="main-title2">
@@ -132,7 +139,7 @@ const Privacypolicy = () => {
                                         <p>
                                             We may share your information in ways including the following:
                                         </p>
-                                        <ul>
+                                        <ul className="bottomborder pb-4 disc">
                                             <li>
                                                 <strong>   With other JiveCam users:</strong> Your username, profile photograph, content that you post or send or share. You may also be able to control how your content is shared with other JiveCam users by adjusting personal settings.
                                             </li>
@@ -148,19 +155,24 @@ const Privacypolicy = () => {
                                             <li>
                                                 <strong>Legal, Safety, and Security Reasons:</strong> We may share information about you if we reasonably believe that disclosing the information is needed to:
                                             </li>
-                                            <li> Comply with any valid legal process, governmental request, or applicable law, rule, or regulation.</li>
-                                            <li> Investigate, remedy, or enforce potential violations of this Policy, the Terms and Conditions, and the Content Policy.</li>
-                                            <li> Protect the rights, property, or safety of us, our users, or others.</li>
-                                            <li> Detect and resolve any fraud or security concerns.</li>
+                                            <ul className="circle">
+                                                <li>
+                                                    <li> Comply with any valid legal process, governmental request, or applicable law, rule, or regulation.</li>
+                                                    <li> Investigate, remedy, or enforce potential violations of this Policy, the Terms and Conditions, and the Content Policy.</li>
+                                                    <li> Protect the rights, property, or safety of us, our users, or others.</li>
+                                                    <li> Detect and resolve any fraud or security concerns.</li>
+                                                </li>
+                                            </ul>
+
                                         </ul>
                                         <h4 className="main-title2">Security</h4>
-                                        <p>
+                                        <p className="bottomborder pb-4">
                                             We undertake no responsibility for the security or safety of your information. However, we take reasonable security measures to protect your information in accordance with industry standards. This does not guarantee the safety or security of your information as events beyond our control can also occur.
                                         </p>
                                         <h4 className="main-title2">
                                             Assignment, Change Of Control, And Transfer
                                         </h4>
-                                        <p>
+                                        <p className="bottomborder pb-4">
                                             All of our rights and obligations under this Policy, the Terms and Conditions, and the Content Policy are freely assignable by us to any of our affiliates or any others, in connection with a merger, acquisition, restructuring, or sale of assets, or by operation of law or otherwise, and we may transfer your information to any of our affiliates, any others successor entities, or new management, etc.
                                         </p>
                                         <h4 className="main-title2">
@@ -169,7 +181,7 @@ const Privacypolicy = () => {
                                         <p>
                                             We may collect, use, preserve, and share your information if we believe that it may be reasonably necessary to:
                                         </p>
-                                        <ul>
+                                        <ul className="bottomborder pb-4 disc">
                                             <li >Respond pursuant to applicable law or regulations, to legal process, or to government requests.</li>
                                             <li > Comply with any valid legal process, governmental request, or applicable law, rule, or regulation.</li>
                                             <li > Investigate, remedy, or enforce potential violations of this Policy, the Terms and Conditions, and the Content Policy.</li>
@@ -180,7 +192,7 @@ const Privacypolicy = () => {
                                         <h4 className="main-title2">
                                             Updates To Our Policy
                                         </h4>
-                                        <p>
+                                        <p className="bottomborder pb-4">
                                             We may amend or update this Policy. We will provide you notice of amendments to this Policy, as appropriate, and update the “Last Modified” date at the top of this Policy. Your continued use of JiveCam confirms your acceptance of this Policy, as amended. If you do not agree with or accept this Policy, as amended, you must stop using JiveCam. Please review our Privacy Policy from time to time.
                                         </p>
                                         <h4 className="main-title2">
@@ -189,60 +201,87 @@ const Privacypolicy = () => {
                                         <p>
                                             This is in addition to the above and in case of any conflict, the policies below shall be applicable if you are subject to EU GDPR.
                                         </p>
-                                        <h4 className="main-title2">
-                                            Access to your data:
-                                        </h4>
-                                        <p>
-                                            You have the right to your personal data including the content you upload. You can access your information by logging into your account. You can email us at privacy@jivecam.live with your registered email address. Please provide us a month to respond with the information and two months if the request is too complicated to fulfil within a month.
-                                        </p>
-                                        <h4 className="main-title2">
-                                            Withdrawal of consent:
-                                        </h4>
-                                        <p>
-                                            You also have the right to withdraw your consent at any time and request us to stop processing your data. However, withdrawing your consent will not affect the processing or use of your information prior to fulfilling your consent withdrawal request. You can email us at privacy@jivecam.live with your registered email address.
-                                        </p>
-                                        <h4 className="main-title2">
-                                            Request for deletion:
-                                        </h4>
-                                        <p>
-                                            You can email us at privacy@jivecam.live with your registered email address and request the deletion of your data.
-                                        </p>
-                                        <p>
-                                            We store data for as long as it is necessary to provide products and services to you and others. Information associated with your account will be kept until your account is deleted, unless we longer need the data to provide the products and services or until we are legally required to do so.
-                                        </p>
-                                        <h4 className="main-title2">
-                                            Right to opt out:
-                                        </h4>
-                                        <p>
-                                            You can opt out from our use of data from cookies and similar technologies that track your behaviour on the sites of others for ad targeting and other ad-related purposes. You can also opt out of marketing communication. We will ask you to opt-in before we use GPS or other tools to identify your precise location.
-                                        </p>
-                                        <p>
-                                            However, you will continue to receive important emails relating to your account. You can email us at privacy@jivecam.io with your registered email address to unsubscribe from such communications.
-                                        </p>
-                                        <h4 className="main-title2">
-                                            Request to correct your data:
-                                        </h4>
-                                        <p>
-                                            In case you find any of your information to be inaccurate or incorrect in any way, you can write to us at support@jivecam.live with your registered email and we will take reasonable steps to update or rectify your information.
+                                        <ul className="bottomborder  disc">
+                                            <li>
+                                                <h5 className="fw-bold">
+                                                    Access to your data:
+                                                </h5>
+
+                                                <p>
+                                                    You have the right to your personal data including the content you upload. You can access your information by logging into your account. You can email us at privacy@jivecam.live with your registered email address. Please provide us a month to respond with the information and two months if the request is too complicated to fulfil within a month.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5 className="fw-bold">
+                                                    Withdrawal of consent:
+                                                </h5>
+
+                                                <p>
+                                                    You also have the right to withdraw your consent at any time and request us to stop processing your data. However, withdrawing your consent will not affect the processing or use of your information prior to fulfilling your consent withdrawal request. You can email us at privacy@jivecam.live with your registered email address.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5 className="fw-bold">
+                                                    Request for deletion:
+                                                </h5>
+
+                                                <p>
+                                                    You can email us at privacy@jivecam.live with your registered email address and request the deletion of your data.
+                                                </p>
+                                                <p>
+                                                    We store data for as long as it is necessary to provide products and services to you and others. Information associated with your account will be kept until your account is deleted, unless we longer need the data to provide the products and services or until we are legally required to do so.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5 className="fw-bold">
+                                                    Right to opt out:
+                                                </h5>
+
+                                                <p>
+                                                    You can opt out from our use of data from cookies and similar technologies that track your behaviour on the sites of others for ad targeting and other ad-related purposes. You can also opt out of marketing communication. We will ask you to opt-in before we use GPS or other tools to identify your precise location.
+                                                </p>
+                                                <p>
+                                                    However, you will continue to receive important emails relating to your account. You can email us at privacy@jivecam.io with your registered email address to unsubscribe from such communications.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5 className="fw-bold">
+                                                    Request to correct your data:
+                                                </h5>
+
+                                                <p>
+                                                    In case you find any of your information to be inaccurate or incorrect in any way, you can write to us at support@jivecam.live with your registered email and we will take reasonable steps to update or rectify your information.
 
 
-                                        </p>
-                                        <h4 className="main-title2">
-                                            Complaints and grievances:
-                                        </h4>
-                                        <p>
-                                            With respect to the collection and use of your personal data, you have the right to complain to the local Data Protection Authority. You can email us at legal@jivecam.live with your registered email address.
-                                        </p>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5 className="fw-bold">
+                                                    Complaints and grievances:
+                                                </h5>
+
+                                                <p className="">
+                                                    With respect to the collection and use of your personal data, you have the right to complain to the local Data Protection Authority. You can email us at legal@jivecam.live with your registered email address.
+                                                </p>
+                                            </li>
+                                        </ul>
+
+
+
+
+
+
+
                                         <h4 className="main-title2">
                                             Third-Party Links
                                         </h4>
-                                        <p>
+                                        <p className="bottomborder pb-4">
                                             We are not responsible for any content nor any consequences either directly or indirectly arising out of clicking on any third-party link you may come across posted by other users. We may share your information with approved third parties in order to provide our services through the JiveCam App.
                                         </p>
                                         <h4 className="main-title2">
                                             Data Transfers
                                         </h4>
-                                        <p>
+                                        <p className="bottomborder pb-4">
                                             We may transfer personal information to countries other than the country in which the data was originally collected.
                                         </p>
                                         <h4 className="main-title2">
@@ -251,45 +290,61 @@ const Privacypolicy = () => {
                                         <h5 className="fw-bold">
                                             Collection, Use, Disclosure, Sharing, and Retention of Face Data:
                                         </h5>
-                                        <h5  className="fw-bold">
-                                            Collection of Face Data:
-                                        </h5>
-                                        <p>
-                                            Information to identify face & facial expressions.
-                                        </p>
-                                        <h5  className="fw-bold">
-                                            Usage of Face Data:
-                                        </h5>
-                                        <p>
-                                            To make the JiveCam app work well for their users, we offer tools that apply filters and video effects fitting the contours of the user’s face, modifying the size and shape of facial features, and following facial movements.
-                                        </p>
-                                        <h5  className="fw-bold">
-                                            Disclosure of Face Data:
-                                        </h5>
-                                        <p>
-                                            This data is used to create filters and video effects within the App. The only use of this information is to provide valuable user features. None of the information collected ever leaves the user’s device.
-                                        </p>
-                                        <h5  className="fw-bold">
-                                            Sharing of Face Data:
-                                        </h5>
-                                        <p>
-                                            We do not share this data with third parties.
-                                        </p>
-                                        <h5  className="fw-bold">
-                                            Retention of Face Data:
-                                        </h5>
-                                        <p>
-                                            We do not store any Facial Recognition Data. Also, none of the information collected by Face Data ever leaves the user’s device. However, some data like user registration data, videos recorded by users, and user’s profile photo are stored on our servers.
-                                        </p>
-                                        <h5  className="fw-bold">
-                                            TrueDepth APIs:
-                                        </h5>
-                                        <p>
-                                            We use TrueDepth APIs to create AR effects within the App. The only use of this information is to provide valuable user features. None of the information collected by the TrueDepth API ever leaves the user’s device. We do not share information with third parties, do not store or process in any other way the data which we accessed and used via TrueDepth API.
-                                        </p>
-                                        <p>
-                                            placeholder mention face recognition service used, kyc service
-                                        </p>
+                                        <ul className="disc">
+                                            <li>
+                                                <h5 className="fw-bold">
+                                                    Collection of Face Data:
+                                                </h5>
+                                                <p>
+                                                    Information to identify face & facial expressions.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5 className="fw-bold">
+                                                    Usage of Face Data:
+                                                </h5>
+                                                <p>
+                                                    To make the JiveCam app work well for their users, we offer tools that apply filters and video effects fitting the contours of the user’s face, modifying the size and shape of facial features, and following facial movements.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5 className="fw-bold">
+                                                    Disclosure of Face Data:
+                                                </h5>
+                                                <p>
+                                                    This data is used to create filters and video effects within the App. The only use of this information is to provide valuable user features. None of the information collected ever leaves the user’s device.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5 className="fw-bold">
+                                                    Sharing of Face Data:
+                                                </h5>
+                                                <p>
+                                                    We do not share this data with third parties.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5 className="fw-bold">
+                                                    Retention of Face Data:
+                                                </h5>
+                                                <p>
+                                                    We do not store any Facial Recognition Data. Also, none of the information collected by Face Data ever leaves the user’s device. However, some data like user registration data, videos recorded by users, and user’s profile photo are stored on our servers.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <h5 className="fw-bold">
+                                                    TrueDepth APIs:
+                                                </h5>
+                                                <p>
+                                                    We use TrueDepth APIs to create AR effects within the App. The only use of this information is to provide valuable user features. None of the information collected by the TrueDepth API ever leaves the user’s device. We do not share information with third parties, do not store or process in any other way the data which we accessed and used via TrueDepth API.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    placeholder mention face recognition service used, kyc service
+                                                </p>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>

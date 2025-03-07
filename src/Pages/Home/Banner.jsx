@@ -21,10 +21,22 @@ import "slick-carousel/slick/slick-theme.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
-import bannervideo from '../../assets/video/WideScreen for Website.mp4'
+// import bannervideo from '../../assets/video/WideScreen for Website.mp4'
+import bannervideo from '../../assets/video/widescreen.mp4'
+import Popup from '../../Component/Popup';
+import { useState } from 'react';
 
 
 const Banner = () => {
+    const [showPopup, setShowPopup] = useState(false);
+
+    const handlePopupOpen = () => {
+        setShowPopup(true);
+    };
+
+    const handlePopupClose = () => {
+        setShowPopup(false);
+    };
     useEffect(() => {
         AOS.init({
             duration: 1000,
@@ -46,6 +58,7 @@ const Banner = () => {
 
     return (
         <>
+            {showPopup && <Popup onClose={handlePopupClose} />}
             <section className='p-0'>
                 <div className='MyVideo w-100 lightpink'>
                     <video
@@ -53,13 +66,14 @@ const Banner = () => {
                         autoPlay
                         loop
                         muted
+                        playsInline
                     >
                         <source src={bannervideo} type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                 </div>
             </section>
-            <section id="home" className="home-wrapper">
+            <div className="home-wrapper py-lg-10 py-5">
                 <div className="custom-container">
                     <div className="row">
                         <div className="col-7 col-lg w-100">
@@ -70,7 +84,8 @@ const Banner = () => {
                                 data-aos-delay="100"
                             >
                                 <div className='bannertext'>
-                                    <h1 className=''><img src={hand} alt="hand" /> Connect, Laugh, Repeat!
+                                    <h1 className=''><img src={hand} alt="
+                                    " /> Connect, Laugh, Repeat!
                                     </h1>
                                     <ul>
                                         <li>
@@ -127,12 +142,12 @@ const Banner = () => {
                                         ))}
                                     </ul> */}
 
-                                    <div className="d-flex pt-4">
-                                        <a href="#" className="btnlink">
-                                            <img src={appstore} className="img-fluid" alt="App Store" />
+                                    <div className="d-flex pt-lg-4 pt-2">
+                                        <a  className="btnlink">
+                                            <img src={appstore} className="img-fluid" alt="App Store"  onClick={handlePopupOpen}/>
                                         </a>
-                                        <a href="#" className="btnlink">
-                                            <img src={playstore} className="img-fluid" alt="Google Play" />
+                                        <a  className="btnlink">
+                                            <img src={playstore} className="img-fluid" alt="Google Play"  onClick={handlePopupOpen} />
                                         </a>
                                     </div>
                                 </div>
@@ -168,7 +183,7 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
 
 
 

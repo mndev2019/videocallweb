@@ -2,8 +2,19 @@
 import image1 from '../../assets/images/app_download.png'
 import image2 from '../../assets/images/connect_laugh.png'
 import image3 from '../../assets/images/build_trust.png'
+import Popup from '../../Component/Popup';
+import { useState } from 'react';
 
 const Steps = () => {
+    const [showPopup, setShowPopup] = useState(false);
+
+    const handlePopupOpen = () => {
+        setShowPopup(true);
+    };
+
+    const handlePopupClose = () => {
+        setShowPopup(false);
+    };
     const step = [
         {
             image: image1,
@@ -23,7 +34,8 @@ const Steps = () => {
     ]
     return (
         <>
-            <section className="section-py-space started-section lightpink" id="step">
+            {showPopup && <Popup onClose={handlePopupClose} />}
+            <section className="section-py-space started-section lightpink" id="Get Started">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
@@ -43,7 +55,7 @@ const Steps = () => {
                                 <>
                                     <div className="col-md-4 pt-4 ">
                                         <div className="card shadow startcard p-4 h-100">
-                                            <img src={itm.image} className="card-img-top img-fluid" alt="..." />
+                                            <img src={itm.image} className="card-img-top img-fluid" alt="Get Started" />
                                             <div className="card-body">
                                                 <h3 className="card-title">{itm.title}</h3>
                                                 <p className="card-text">{itm.text}
@@ -59,7 +71,7 @@ const Steps = () => {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="w-100 d-flex gap-3 justify-content-center py-4">
-                                <button className="d-flex gap-2 align-items-center">
+                                <button className="d-flex gap-2 align-items-center" onClick={handlePopupOpen}>
                                     <div className="icon">
                                         <i className="fa-brands fa-apple"></i>
                                     </div>
@@ -67,7 +79,7 @@ const Steps = () => {
                                         Download for iOS
                                     </div>
                                 </button>
-                                <button className="d-flex gap-2 align-items-center">
+                                <button className="d-flex gap-2 align-items-center" onClick={handlePopupOpen}>
                                     <div className="icon">
                                         <i className="fa-brands fa-android"></i>
                                     </div>

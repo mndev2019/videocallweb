@@ -7,7 +7,7 @@ const Termscondition = () => {
     return (
         <>
             <Insidebanner title="Terms And Conditions" />
-            <section className="pb-5 aboutus">
+            <section className="pb-5 aboutus terms">
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-3">
@@ -25,7 +25,7 @@ const Termscondition = () => {
                                         <p>
                                             Subject to the foregoing, we are pleased to make our services available to you, which include the JiveCam mobile application/App, website, social and interactive features, which include image posting, video calling, messaging, and other associated services (&quot;Services&quot;). These images, videos, clips, interactions on JiveCam, etc., posted by the users shall be the &quot;Content&quot;.
                                         </p>
-                                        <p>
+                                        <p className="bottomborder pb-4">
                                             If you install, use, or access JiveCam or any of its features, you have read and accepted these terms and conditions. You have also accepted the JiveCam Privacy Policy, the JiveCam Live Streaming Terms and Conditions, our Community Guidelines, and other terms which are available on the JiveCam App, JiveCam Website, and otherwise. Please make sure to read these documents. By using JiveCam, you are entering into a binding contract(s) with us. Your contract with us includes the Terms and Conditions and Content Policy, the Privacy Policy, the JiveCam Live Streaming Terms and Conditions, etc. If you don’t agree with and accept the above, please do not use, install, or access JiveCam or any of its features.
                                         </p>
                                         <h4 className="main-title2">Account and Registration</h4>
@@ -42,8 +42,8 @@ const Termscondition = () => {
                                         <p>
                                             Only persons who can form legally binding contracts under the law of their jurisdiction or those persons (such as minors) that are represented by persons (such as legal guardians) who can form legally binding contracts under the law of their jurisdiction are permitted to use our Services.
                                         </p>
-                                        <h4 className="main-title2">You agree that:</h4>
-                                        <ul>
+                                        <p className="">You agree that:</p>
+                                        <ul className="bottomborder pb-4 disc">
                                             <li>You have the right, authority, and legal capacity to agree to these Terms and Conditions and Content Policy, Privacy Policy, and Community Guidelines on behalf of yourself;</li>
                                             <li>You have read, understood, and agree to be bound by these Terms and Conditions and Content Policy, Privacy Policy, and Community Guidelines with respect to yourself and any minor in your care who has access to our Services.</li>
                                         </ul>
@@ -57,19 +57,19 @@ const Termscondition = () => {
                                         <p>
                                             To the extent it’s necessary, when you generate Content, you also grant us, our affiliates, and our business partners the unrestricted, worldwide, perpetual right and license to use your name, likeness, and voice. You will not be entitled to any compensation from us, our affiliates, or our business partners if your name, likeness, or voice is conveyed through the Services, either on the JiveCam application or on one of our business partners&apos; platforms.
                                         </p>
-                                        <h4 className="main-title2">You represent, warrant, and covenant, as applicable, that:</h4>
-                                        <ul>
-                                            <li><strong>1.</strong>	You own the Content posted by you on or through our Services or otherwise have the right to grant the license set forth in this section;</li>
-                                            <li><strong>2.</strong>	The posting and use of your Content on or through our Services does not violate the privacy rights, copyrights, contractual rights, intellectual property rights, or any other rights of any person;</li>
-                                            <li><strong>3. </strong>	The posting of your Content does not result in a breach of contract between you and a third party;</li>
-                                            <li><strong>4. </strong>Your actions on JiveCam shall not be in violation of applicable law or regulation.</li>
+                                        <p>You represent, warrant, and covenant, as applicable, that:</p>
+                                        <ul className="number">
+                                            <li>	You own the Content posted by you on or through our Services or otherwise have the right to grant the license set forth in this section;</li>
+                                            <li>The posting and use of your Content on or through our Services does not violate the privacy rights, copyrights, contractual rights, intellectual property rights, or any other rights of any person;</li>
+                                            <li>The posting of your Content does not result in a breach of contract between you and a third party;</li>
+                                            <li>Your actions on JiveCam shall not be in violation of applicable law or regulation.</li>
                                         </ul>
                                         <p>We are not responsible for any Content posted by you or any consequences thereof.</p>
 
-                                        <h4 className="main-title2">
+                                        <p>
                                             You agree that you shall not host, display, upload, modify, publish, transmit, store, update, or share any information that:
-                                        </h4>
-                                        <ul>
+                                        </p>
+                                        <ul className="bottomborder pb-4 disc">
                                             <li>Belongs to another person and to which you do not have any right to;</li>
                                             <li>Is grossly harmful, harassing, blasphemous, defamatory, obscene, pornographic, paedophilic, libellous, invasive of another&apos;s privacy, including bodily privacy, insulting or harassing on the basis of gender, libellous, hateful, racially or ethnically objectionable, disparaging, relating or encouraging money laundering or gambling, or otherwise unlawful inconsistent with or contrary to the laws in force in any manner whatever;</li>
                                             <li>Harms minors in any way;</li>
@@ -107,7 +107,7 @@ const Termscondition = () => {
                                         <p>
                                             If any violation of these Terms is brought to our actual knowledge by an affected person, we shall act within thirty-six hours and where applicable, work with the user or owner of such information to delete/disable such information/Content that is in contravention of these Terms. We will not intimate you if any of the Content posted by you is taken down/deleted or your account is disabled pursuant to the above. We will preserve such information and associated records for at least one hundred and eighty days for investigation purposes. Please contact the grievance officer whose details are provided in the last section of these Terms in case of any violation or grievances.
                                         </p>
-                                        <p>
+                                        <p className="bottomborder pb-4">
                                             We have a separate page for reporting copyright infringement which is available at here
                                         </p>
                                         <h4 className="main-title2">Paid Services</h4>
@@ -123,44 +123,44 @@ const Termscondition = () => {
                                         <p>
                                             You are responsible for any Taxes and must pay for Paid Service without any reduction for Taxes. If we are obligated to collect or pay Taxes in connection with the Paid Services, the Taxes will be charged to you. You must comply with any and all applicable tax laws,
                                         </p>
-                                        <p>
+                                        <p className="bottomborder pb-4">
                                             including the reporting and payment of any Taxes arising in connection with your subscription of Paid Services.
                                         </p>
                                         <h4 className="main-title2">Links to Other Sites</h4>
-                                        <p>
+                                        <p className="bottomborder pb-4">
                                             This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content on these third-party sites/applications.
                                         </p>
                                         <h4 className="main-title2">
                                             Children’s Privacy
                                         </h4>
-                                        <p>
+                                        <p className="bottomborder pb-4">
                                             These Services are not for any child under the age of 13. We do not knowingly collect personally identifiable information from children under 13. In case we discover that a child under 13 has provided us with personal information, we will immediately delete this information from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the grievance officer whose details are provided in the last section of these Terms.
                                         </p>
                                         <h4 className="main-title2">Devices and Software</h4>
-                                        <p>
+                                        <p className="bottomborder pb-4">
                                             You must provide certain devices, software, and data connections to use our Services, which we otherwise do not supply. For as long as you use our Services, you consent to downloading and installing updates to our Services, including automatically.
                                         </p>
                                         <h4 className="main-title2">
                                             Device Storage Permission
                                         </h4>
-                                        <p>You provide us storage permission (Read and write) by which we are able to upload your content to our server and display it to users. You confirm you are authorized to provide us such permissions to allow us to offer our Services.</p>
+                                        <p className="bottomborder pb-4">You provide us storage permission (Read and write) by which we are able to upload your content to our server and display it to users. You confirm you are authorized to provide us such permissions to allow us to offer our Services.</p>
                                         <h4 className="main-title2">
                                             Privacy Policy and User Data
                                         </h4>
-                                        <p>
+                                        <p className="bottomborder pb-4">
                                             JiveCam cares about your privacy. You can access our <a href="/privacy-policy">Privacy Policy</a> here.
                                         </p>
                                         <h4 className="main-title2">Changes to These Terms</h4>
-                                        <p>
+                                        <p className="bottomborder pb-4">
                                             We may amend or update these Terms. We will provide you notice of amendments to these Terms, as appropriate, and update the “Last Modified” date at the top of these Terms. Your continued use of JiveCam confirms your acceptance of these Terms, as amended. If you do not agree with or accept these Terms, as amended, you must stop using JiveCam. Please review these Terms from time to time. These changes are effective immediately after they are posted on this page.
                                         </p>
                                         <h4 className="main-title2">Indemnity</h4>
-                                        <p>You agree to defend, indemnify, and hold harmless us, our parent(s), subsidiaries, and affiliates, and each of their respective officers, directors, employees, agents, and advisors from any and all claims, liabilities, costs, and expenses, including, but not limited to, attorneys’ fees and expenses, arising out of a breach by you or any user of your account of these Terms or the Privacy Policy or the Community Guidelines and your obligations, representation, and warranties therein.</p>
+                                        <p className="bottomborder pb-4">You agree to defend, indemnify, and hold harmless us, our parent(s), subsidiaries, and affiliates, and each of their respective officers, directors, employees, agents, and advisors from any and all claims, liabilities, costs, and expenses, including, but not limited to, attorneys’ fees and expenses, arising out of a breach by you or any user of your account of these Terms or the Privacy Policy or the Community Guidelines and your obligations, representation, and warranties therein.</p>
                                         <h4 className="main-title2">Exclusion of Warranties</h4>
                                         <p>
                                             The Services are provided to you on an ‘as is’ basis and we do not represent or warrant that the use of the Services will be uninterrupted, timely, secure, or free from error; that any information obtained by you as a result of the use of services will be accurate.
                                         </p>
-                                        <p>
+                                        <p className="bottomborder pb-4">
                                             Implied warranties as to the satisfactory quality, fitness for purpose, or merchantability of these Services are hereby excluded.
                                         </p>
                                         <h4 className="main-title2">
@@ -169,7 +169,7 @@ const Termscondition = () => {
                                         <p>
                                             We shall not be liable to you for any loss or damages or claims including but not limited to the following:
                                         </p>
-                                        <ul>
+                                        <ul className="disc">
                                             <li>Any loss of profit, opportunity, or goodwill;</li>
                                             <li>Any loss of data;</li>
                                             <li>Any damage incurred as a result of your reliance on any advertisement appearing on the Service;</li>
@@ -177,53 +177,59 @@ const Termscondition = () => {
                                             <li>Any damage incurred as a result of your failure to provide us with accurate information and your failure to keep your account details and password confidential and secure;</li>
                                             <li>Any damage incurred as a result of the actions of another user.</li>
                                         </ul>
-                                        <p>
+                                        <p className="bottomborder pb-4">
                                             Any dispute that may arise between you and any third party arising from your use of the Services shall be only between you and the third party, and you release us and our affiliates from any such claims and damages connected with such disputes.
                                         </p>
                                         <h4 className="main-title2">Governing Law</h4>
-                                        <p>The validity, construction, and enforceability of these Terms and Conditions and Content Policy, Privacy Policy, and Community Guidelines shall be governed and construed in accordance with the laws of India.</p>
+                                        <p className="bottomborder pb-4">The validity, construction, and enforceability of these Terms and Conditions and Content Policy, Privacy Policy, and Community Guidelines shall be governed and construed in accordance with the laws of India.</p>
                                         <h4 className="main-title2">Dispute Resolution</h4>
-                                        <p>Either you or we may refer any dispute for final resolution by arbitration under the (Indian) Arbitration and Conciliation Act 1996. The tribunal shall consist of three (3) arbitrators. Each party shall appoint 1 (one) arbitrator and the two arbitrators shall appoint the third arbitrator. The arbitration proceedings shall be held at Bangalore, Karnataka, India. The language to be used in the arbitral proceedings shall be English. Subject to the above, the Courts at Bangalore shall have exclusive jurisdiction.</p>
+                                        <p className="bottomborder pb-4">Either you or we may refer any dispute for final resolution by arbitration under the (Indian) Arbitration and Conciliation Act 1996. The tribunal shall consist of three (3) arbitrators. Each party shall appoint 1 (one) arbitrator and the two arbitrators shall appoint the third arbitrator. The arbitration proceedings shall be held at Bangalore, Karnataka, India. The language to be used in the arbitral proceedings shall be English. Subject to the above, the Courts at Bangalore shall have exclusive jurisdiction.</p>
                                         <h4 className="main-title2">
                                             Guest User Access
                                         </h4>
-                                        <h5 className="fw-bold"><strong> 1. </strong>	Overview</h5>
-                                        <ul>
+                                        <h5 className="fw-bold"> <span className="fw-normal">1.</span>	Overview</h5>
+                                        <ul className="circle">
                                             <li>
                                                 We may allow you to use certain features on JiveCam as a guest user, without requiring email or phone number registration.
                                             </li>
                                         </ul>
-                                        <h5 className="fw-bold"><strong> 2. </strong>	Capabilities and Restrictions</h5>
-                                        <p>
-                                            As a guest user, you can:
-                                        </p>
-                                        <ul>
+                                        <h5 className="fw-bold"><span className="fw-normal">2.</span>	Capabilities and Restrictions</h5>
+
+                                        <ul className="circle">
                                             <li>
-                                                Recharge and spend our in-app currency.
+
+                                                As a guest user, you can:
+
                                             </li>
-                                            <li>
-                                                Participate in calling (audio/video).
-                                            </li>
-                                            <li>
-                                                Join streams and send/receive gifts (using in-app currency).
-                                            </li>
-                                            <li>
-                                                Use messaging features.
-                                            </li>
+                                            <ol className="disc">
+                                                <li>
+                                                    Recharge and spend our in-app currency.
+                                                </li>
+                                                <li>
+                                                    Participate in calling (audio/video).
+                                                </li>
+                                                <li>
+                                                    Join streams and send/receive gifts (using in-app currency).
+                                                </li>
+                                                <li>
+                                                    Use messaging features.
+                                                </li>
+                                            </ol>
+
                                             <li>
                                                 Certain features remain restricted for guest users.
                                             </li>
                                         </ul>
-                                        <h5 className="fw-bold"><strong> 3. </strong>	Becoming a Content Creator</h5>
-                                        <ul>
+                                        <h5 className="fw-bold"><span className="fw-normal">3.</span>	Becoming a Content Creator</h5>
+                                        <ul className="circle">
                                             <li>
                                                 If you choose to become a content creator, you must sign up using a valid email or phone number.
                                             </li>
                                         </ul>
                                         <h5 className="fw-bold">
-                                            <strong> 4. </strong>	Forfeiture of In-app currency for Guest Users
+                                            <span className="fw-normal">4.</span>	Forfeiture of In-app currency for Guest Users
                                         </h5>
-                                        <ul>
+                                        <ul className="bottomborder pb-4 circle">
                                             <li><strong>Local Data Deletion: </strong>As a guest user, your Diamond balance and any other assets are not tied to any login credentials. Therefore, <strong>if you erase local data, reset your phone, or uninstall JiveCam, you will lose access to the guest user account and forfeit any remaining in-app currency permanently.</strong></li>
                                             <li>
                                                 <strong>Account Deletion: </strong>
@@ -238,36 +244,45 @@ const Termscondition = () => {
                                             App Features and Availability
                                         </h4>
                                         <h5 className="fw-bold">
-                                            <strong> 1. </strong>	Feature Restrictions
+                                            <span className="fw-normal"> 1. </span>	Feature Restrictions
                                         </h5>
-                                        <p>
-                                            We reserve the right, at our sole discretion, to limit or restrict access to certain features or functionalities on JiveCam for specific categories of users (including but not limited to guest users) or based on factors such as your account status, usage history, compliance with our policies, or other criteria determined by us.
-                                        </p>
+                                        <ul className="circle">
+                                            <li>
+                                                We reserve the right, at our sole discretion, to limit or restrict access to certain features or functionalities on JiveCam for specific categories of users (including but not limited to guest users) or based on factors such as your account status, usage history, compliance with our policies, or other criteria determined by us.
+                                            </li>
+                                        </ul>
+
                                         <h5 className="fw-bold">
-                                            <strong> 2. </strong>	No Liability for Restriction
+                                            <span className="fw-normal"> 2. </span>	No Liability for Restriction
                                         </h5>
-                                        <p>
-                                            You acknowledge and agree that our decision to enable or disable certain features is part of our legitimate right to manage the Services and user experience. We shall not be liable for any losses, damages, or claims that may arise because you, as a user or guest user, cannot access features otherwise available to other users.
-                                        </p>
+                                        <ul className="circle">
+                                            <li>
+                                                You acknowledge and agree that our decision to enable or disable certain features is part of our legitimate right to manage the Services and user experience. We shall not be liable for any losses, damages, or claims that may arise because you, as a user or guest user, cannot access features otherwise available to other users.
+                                            </li>
+                                        </ul>
+
                                         <h5 className="fw-bold">
-                                            <strong>  3. </strong>	Feature Modifications or Discontinuation
+                                            <span className="fw-normal"> 3. </span>	Feature Modifications or Discontinuation
                                         </h5>
-                                        <p>
-                                            We may, at any time, and without prior notice, modify, suspend, or discontinue any feature, content, or functionality of the Services. We shall not be liable to you or any third party if we exercise any of these rights.
-                                        </p>
+                                        <ul className="circle bottomborder pb-4" >
+                                            <li>
+                                                We may, at any time, and without prior notice, modify, suspend, or discontinue any feature, content, or functionality of the Services. We shall not be liable to you or any third party if we exercise any of these rights.
+                                            </li>
+                                        </ul>
+
                                         <h4 className="main-title2">
                                             Severability
                                         </h4>
-                                        <p>
+                                        <p className="bottomborder pb-4">
                                             If any provision of this Agreement is invalid or unenforceable or prohibited by law, it shall be treated for all purposes as severed from this Agreement and ineffective to the extent of such invalidity or unenforceability, without affecting in any way the remaining provisions hereof, which shall continue to be valid and binding.
                                         </p>
                                         <h4 className="main-title2">
                                             Refund Policy
                                         </h4>
-                                        <h4 className="main-title2">
+                                        <h5>
                                             Instructions
-                                        </h4>
-                                        <p>
+                                        </h5>
+                                        <p className="bottomborder pb-4">
                                             Please thoroughly review the Terms and Conditions before making any purchases on the Platform. <strong>JiveCam</strong> does not offer refunds for purchases made on the Platform.
                                         </p>
                                         <h4 className="main-title2">Grievance Redressal</h4>
@@ -283,7 +298,7 @@ const Termscondition = () => {
                                         <p>
                                             For claims related to copyright infringement, please see our report copyright infringement page.
                                         </p>
-                                        <p>
+                                        <p className="bottomborder pb-4">
                                             Details under Rule 4(1)(d) of the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 of content removed under the grievance redressal mechanism are available here.
                                         </p>
                                         <h4 className="main-title2">

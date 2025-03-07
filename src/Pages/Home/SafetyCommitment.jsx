@@ -20,7 +20,7 @@ function SafetyCommitment() {
                                             </ul>
                                         </div>
                                         <div className="col-md-6 leftcol order-lg-2 order-1 text-end">
-                                            <img src={security} alt="" className="img-fluid" style={{objectFit:"contain" , borderRadius:"20px"}}/>
+                                            <img src={security} alt="safety" className="img-fluid" style={{objectFit:"contain" , borderRadius:"20px"}}/>
                                         </div>
                                     </div>
                                 </div>

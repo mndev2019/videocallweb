@@ -20,16 +20,69 @@ const ThemeNavbar = () => {
         };
     }, []);
 
+    // const handleNavigation = (section) => {
+    //     if (isHomePage) {
+    //         document.getElementById(section)?.scrollIntoView({ behavior: "smooth" });
+    //     } else {
+    //         navigate(`/#${section}`);
+    //         setTimeout(() => {
+    //             document.getElementById(section)?.scrollIntoView({ behavior: "smooth" });
+    //         }, 500);
+    //     }
+    // };
     const handleNavigation = (section) => {
         if (isHomePage) {
-            document.getElementById(section)?.scrollIntoView({ behavior: "smooth" });
+            scrollToSection(section);
         } else {
             navigate(`/#${section}`);
             setTimeout(() => {
-                document.getElementById(section)?.scrollIntoView({ behavior: "smooth" });
-            }, 500);
+                // Wait for navigation, then scroll to the section
+                scrollToSection(section);
+            }, 500); // Adjust delay as needed
         }
     };
+    
+    const scrollToSection = (section) => {
+        const element = document.getElementById(section);
+        if (element) {
+            let offset = isSticky ? 80 : 0; // Sticky header height offset
+    
+            // Add a bit more offset for the first section
+            if (section === "feature") {
+                offset += 30;
+            }
+            if (section === "how it works") {
+                offset += 30;
+            }
+            if (section === "reviews") {
+                offset += 30;
+            }
+            if (section === "Get Started") {
+                offset += 30;
+            }
+            if (section === "safety") {
+                offset += 30;
+            }
+            if (section === "community") {
+                offset += 30;
+            }
+            if (section === "FAQs") {
+                offset += 30;
+            }
+    
+            const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+            const offsetPosition = elementPosition - offset;
+    
+            // Smooth scroll to the section with offset
+            window.scrollTo({ top: offsetPosition, behavior: "smooth" });
+        } else {
+            // Retry scrolling after a slight delay if element isn't found
+            setTimeout(() => {
+                scrollToSection(section);
+            }, 300);
+        }
+    };
+    
 
     return (
         <>

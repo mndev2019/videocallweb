@@ -56,6 +56,18 @@ const Sidebar = () => {
                     <li className="nav-item">
                         <div className="title">
                             <NavLink
+                                to="/eula"
+                                className={({ isActive }) =>
+                                    `nav-link ${isActive ? "active-link" : ""}`
+                                }
+                            >
+                               Eula
+                            </NavLink>
+                        </div>
+                    </li>
+                    <li className="nav-item">
+                        <div className="title">
+                            <NavLink
                                 to="/contact"
                                 className={({ isActive }) =>
                                     `nav-link ${isActive ? "active-link" : ""}`

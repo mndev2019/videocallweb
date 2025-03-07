@@ -10,6 +10,7 @@ import About from './Pages/About';
 import Termscondition from './Pages/Termscondition';
 import Privacypolicy from './Pages/Privacypolicy';
 import Contact from './Pages/Contact';
+import Eula from './Pages/Eula';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path='/terms-condition' element={<Termscondition />} />
           <Route path='/privacy-policy' element={<Privacypolicy />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/eula' element={<Eula/>}/>
         </Route>
 
 
