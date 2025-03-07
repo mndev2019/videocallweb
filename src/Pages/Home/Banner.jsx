@@ -73,7 +73,7 @@ const Banner = () => {
                     </video>
                 </div>
             </section>
-            <div className="home-wrapper py-lg-10 py-5">
+            <div className="home-wrapper py-lg-10 py-5" id='download'>
                 <div className="custom-container">
                     <div className="row">
                         <div className="col-7 col-lg w-100">
@@ -143,11 +143,11 @@ const Banner = () => {
                                     </ul> */}
 
                                     <div className="d-flex pt-lg-4 pt-2">
-                                        <a  className="btnlink">
-                                            <img src={appstore} className="img-fluid" alt="App Store"  onClick={handlePopupOpen}/>
+                                        <a className="btnlink">
+                                            <img src={appstore} className="img-fluid" alt="App Store" onClick={handlePopupOpen} />
                                         </a>
-                                        <a  className="btnlink">
-                                            <img src={playstore} className="img-fluid" alt="Google Play"  onClick={handlePopupOpen} />
+                                        <a className="btnlink">
+                                            <img src={playstore} className="img-fluid" alt="Google Play" onClick={handlePopupOpen} />
                                         </a>
                                     </div>
                                 </div>

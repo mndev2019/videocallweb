@@ -16,14 +16,14 @@ const Popup = ({ onClose }) => {
             ></div>
 
             <div
-                className="modal d-flex align-items-center justify-content-center"
+                className="modal   d-flex align-items-center justify-content-center"
                 tabIndex="-1"
                 style={{ display: 'block', position: 'fixed', top: 0, left: 0, width: '100vw', height: '100vh', zIndex: 1051 }}
             >
-                <div className="modal-dialog">
-                    <div className="modal-content" style={{ background: "#ef79f029" }}>
+                <div className="modal-dialog modal-lg">
+                    <div className="modal-content" style={{ background: "#ef79f029", borderRadius: "30px" }}>
                         <div className="modal-header">
-                            <h5 className="modal-title" style={{color:"white"}}>Welcome to JiveCam!</h5>
+                            <h5 className="modal-title" style={{ color: "white" }}>Welcome to JiveCam!</h5>
                             <button
                                 type="button"
                                 className="btn-close"
@@ -40,12 +40,12 @@ const Popup = ({ onClose }) => {
                             </p>
                             <p>
                                 If you'd like to be among the first to explore JiveCam, we invite you to join our community of invited users.
-                                Simply reach out to us at <a href="mailto:admin@jivecam.live">admin@jivecam.live</a>, and we'll be thrilled to welcome you aboard.
+                                Simply reach out to us at <a href="mailto:admin@jivecam.live" className="text-white fw-bold">admin@jivecam.live</a>, and we'll be thrilled to welcome you aboard.
                             </p>
                             <p>
                                 Stay tuned for our upcoming public launch – it's just around the corner!
                             </p>
-                            <p>Happy Jiving,</p>
+                            <p className="mb-0"> Happy Jiving,</p>
                             <p>The JiveCam Team</p>
                         </div>
                         {/* <div className="modal-footer">

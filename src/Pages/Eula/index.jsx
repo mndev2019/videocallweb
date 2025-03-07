@@ -1,12 +1,13 @@
 // import React from 'react'
 
+import { Link } from "react-router-dom"
 import Insidebanner from "../../Component/Insidebanner"
 import Sidebar from "../../Component/Sidebar"
 
 const Eula = () => {
     return (
         <>
-            <Insidebanner title="Eula" />
+            <Insidebanner title="EULA" />
             <section className="pb-5 aboutus eula">
                 <div className="container-fluid">
                     <div className="row">
@@ -85,7 +86,7 @@ const Eula = () => {
                                         </h4>
                                         <ul className="disc bottomborder pb-4">
                                             <li>
-                                                Your use of the Service is also governed by the Company’s Privacy Policy, which can be found at [link to privacy policy]. By using the Service, you consent to the collection and use of personal data as described in the Privacy Policy.
+                                                Your use of the Service is also governed by the Company’s Privacy Policy, which can be found at <Link to='/privacy-policy'>Privacy Policy</Link>. By using the Service, you consent to the collection and use of personal data as described in the Privacy Policy.
                                             </li>
 
                                         </ul>
@@ -168,14 +169,14 @@ const Eula = () => {
                                             <span className="fw-normal">12. </span>Governing Law
                                         </h4>
                                         <p className="bottomborder pb-4">
-                                            This Agreement shall be governed by and construed in accordance with the laws of [Insert Jurisdiction], without regard to its conflict of law principles.
+                                            This Agreement shall be governed by and construed in accordance with the laws of India, without regard to its conflict of law principles.
                                         </p>
                                         <h4 className="main-title2">
                                             <span className="fw-normal">13. </span>Limitation of Liability
                                         </h4>
                                         <ul className="disc bottomborder pb-4">
                                             <li>
-                                                Any disputes arising under or in connection with this Agreement shall be resolved through binding arbitration in [Insert Location] in accordance with the rules of the [Insert Arbitration Association].
+                                                Any disputes arising under or in connection with this Agreement shall be resolved through binding arbitration in Bengaluru, Karnataka, in accordance with the rules of the Arbitration & Conciliation Centre, Bengaluru.
                                             </li>
                                             <li>
                                                 You agree to waive any right to a jury trial or to participate in class action litigation.
@@ -203,7 +204,7 @@ const Eula = () => {
                                             By accessing or using the Service, you acknowledge that you have read, understood, and agree to be bound by this End User License Agreement.
                                         </p>
                                         <p>
-                                            If you have any questions or concerns, please contact us at support@jivecam.live
+                                            If you have any questions or concerns, please contact us at <a href="mailto:support@jivecam.live">support@jivecam.live</a>
                                         </p>
                                     </div>
                                 </div>

@@ -18,15 +18,15 @@ const Termscondition = () => {
                                 <div className="row">
                                     <div className="col-sm-12">
                                         {/* <h4 className="main-title mb-3">Terms and Conditions and Content Policy</h4> */}
-                                        <h4 className="main-title2 mb-3">Introductions</h4>
+                                        <h4 className="main-title2 mb-3">Introduction</h4>
                                     </div>
                                     <div className="col-12">
-                                        <p>Thanks for choosing &quot;JiveCam,&quot; an online social platform. This is an agreement between &quot;you,&quot; a &quot;user&quot; of JiveCam, and<strong> NSAH Swayantrana Technologies LLP</strong> , a company incorporated in India (&quot;we,&quot; &quot;us,&quot; &quot;our&quot;). </p>
+                                        <p>Thanks for choosing &quot;<span className="fw-bold">JiveCam</span>,&quot; an online social platform. This is an agreement between &quot;you,&quot; a &quot;user&quot; of <span className="fw-bold">JiveCam</span>, and<strong> NSAH Swayantrana Technologies LLP</strong> , a company incorporated in India (&quot;we,&quot; &quot;us,&quot; &quot;our&quot;). </p>
                                         <p>
-                                            Subject to the foregoing, we are pleased to make our services available to you, which include the JiveCam mobile application/App, website, social and interactive features, which include image posting, video calling, messaging, and other associated services (&quot;Services&quot;). These images, videos, clips, interactions on JiveCam, etc., posted by the users shall be the &quot;Content&quot;.
+                                            Subject to the foregoing, we are pleased to make our services available to you, which include the <span className="fw-bold">JiveCam</span> mobile application/App, website, social and interactive features, which include image posting, video calling, messaging, and other associated services (&quot;Services&quot;). These images, videos, clips, interactions on <span className="fw-bold">JiveCam</span>, etc., posted by the users shall be the &quot;Content&quot;.
                                         </p>
                                         <p className="bottomborder pb-4">
-                                            If you install, use, or access JiveCam or any of its features, you have read and accepted these terms and conditions. You have also accepted the JiveCam Privacy Policy, the JiveCam Live Streaming Terms and Conditions, our Community Guidelines, and other terms which are available on the JiveCam App, JiveCam Website, and otherwise. Please make sure to read these documents. By using JiveCam, you are entering into a binding contract(s) with us. Your contract with us includes the Terms and Conditions and Content Policy, the Privacy Policy, the JiveCam Live Streaming Terms and Conditions, etc. If you don’t agree with and accept the above, please do not use, install, or access JiveCam or any of its features.
+                                            If you install, use, or access <span className="fw-bold">JiveCam</span> or any of its features, you have read and accepted these terms and conditions. You have also accepted the <span className="fw-bold">JiveCam</span> Privacy Policy, the <span className="fw-bold">JiveCam</span> Live Streaming Terms and Conditions, our Community Guidelines, and other terms which are available on the <span className="fw-bold">JiveCam</span> App, <span className="fw-bold">JiveCam</span> Website, and otherwise. Please make sure to read these documents. By using <span className="fw-bold">JiveCam</span>, you are entering into a binding contract(s) with us. Your contract with us includes the Terms and Conditions and Content Policy, the Privacy Policy, the <span className="fw-bold">JiveCam</span> Live Streaming Terms and Conditions, etc. If you don’t agree with and accept the above, please do not use, install, or access <span className="fw-bold">JiveCam</span> or any of its features.
                                         </p>
                                         <h4 className="main-title2">Account and Registration</h4>
                                         <p>You must be over the age of 13, and if you are an Indian resident, you must be represented by a legal guardian if you are below the age of 18, to register for our Services. You represent and warrant that you will provide accurate and up-to-date information while creating an account with us and you agree to keep the information accurate at all times. You must keep your account password confidential.</p>
@@ -55,14 +55,14 @@ const Termscondition = () => {
                                             You agree that your use of the Services does not grant you any right to any compensation or share in revenue or value.
                                         </p>
                                         <p>
-                                            To the extent it’s necessary, when you generate Content, you also grant us, our affiliates, and our business partners the unrestricted, worldwide, perpetual right and license to use your name, likeness, and voice. You will not be entitled to any compensation from us, our affiliates, or our business partners if your name, likeness, or voice is conveyed through the Services, either on the JiveCam application or on one of our business partners&apos; platforms.
+                                            To the extent it’s necessary, when you generate Content, you also grant us, our affiliates, and our business partners the unrestricted, worldwide, perpetual right and license to use your name, likeness, and voice. You will not be entitled to any compensation from us, our affiliates, or our business partners if your name, likeness, or voice is conveyed through the Services, either on the <span className="fw-bold">JiveCam</span> application or on one of our business partners&apos; platforms.
                                         </p>
                                         <p>You represent, warrant, and covenant, as applicable, that:</p>
                                         <ul className="number">
                                             <li>	You own the Content posted by you on or through our Services or otherwise have the right to grant the license set forth in this section;</li>
                                             <li>The posting and use of your Content on or through our Services does not violate the privacy rights, copyrights, contractual rights, intellectual property rights, or any other rights of any person;</li>
                                             <li>The posting of your Content does not result in a breach of contract between you and a third party;</li>
-                                            <li>Your actions on JiveCam shall not be in violation of applicable law or regulation.</li>
+                                            <li>Your actions on <span className="fw-bold">JiveCam</span> shall not be in violation of applicable law or regulation.</li>
                                         </ul>
                                         <p>We are not responsible for any Content posted by you or any consequences thereof.</p>
 
@@ -85,24 +85,24 @@ const Termscondition = () => {
                                             <li>Is patently false and untrue, and is written or published in any form, with the intent to mislead or harass a person, entity, or agency for financial gain or to cause any injury to any person.</li>
                                         </ul>
                                         <h4 className="main-title2">Termination; Agreement Violations</h4>
-                                        <p>You agree that JiveCam, in its sole discretion, for any or no reason, and without penalty, may suspend or terminate your account (or any part thereof) or your use of the App and Website at any time. JiveCam may also, in its sole discretion, block, restrict, disable, suspend, or terminate your access to the App and the Website, or any part thereof, with or without notice.</p>
+                                        <p>You agree that <span className="fw-bold">JiveCam</span>, in its sole discretion, for any or no reason, and without penalty, may suspend or terminate your account (or any part thereof) or your use of the App and Website at any time. <span className="fw-bold">JiveCam</span> may also, in its sole discretion, block, restrict, disable, suspend, or terminate your access to the App and the Website, or any part thereof, with or without notice.</p>
                                         <p>
-                                            You agree that any termination of your access to the Website and/or the App or any account you may have or a portion thereof may be effected without prior notice, and you agree that JiveCam will not be liable to you or any third party for any such termination or interruption. Any suspected fraudulent, abusive, or illegal activity may be referred to appropriate law enforcement authorities. These remedies are in addition to any other remedies JiveCam may have at law or in equity. Upon termination for any reason, you agree to immediately stop using the App / Website / Service.
+                                            You agree that any termination of your access to the Website and/or the App or any account you may have or a portion thereof may be effected without prior notice, and you agree that <span className="fw-bold">JiveCam</span> will not be liable to you or any third party for any such termination or interruption. Any suspected fraudulent, abusive, or illegal activity may be referred to appropriate law enforcement authorities. These remedies are in addition to any other remedies <span className="fw-bold">JiveCam</span> may have at law or in equity. Upon termination for any reason, you agree to immediately stop using the App / Website / Service.
                                         </p>
                                         <p>
-                                            The User may terminate his/her account with JiveCam by raising a termination request through the Help section of the App / Website. Such termination requests can only be initiated based on the portfolio value of the Users.
+                                            The User may terminate his/her account with <span className="fw-bold">JiveCam</span> by raising a termination request through the Help section of the App / Website. Such termination requests can only be initiated based on the portfolio value of the Users.
                                         </p>
                                         <p>
-                                            You acknowledge and agree that the Content uploaded is the sole responsibility of the user who has uploaded such Content and the views expressed are their own. JiveCam is not responsible for the Content posted by you.
+                                            You acknowledge and agree that the Content uploaded is the sole responsibility of the user who has uploaded such Content and the views expressed are their own. <span className="fw-bold">JiveCam</span> is not responsible for the Content posted by you.
                                         </p>
                                         <p>
                                             You shall be solely responsible for the Content posted, shared, modified, uploaded, transmitted, updated, and hosted by you.
                                         </p>
                                         <p>
-                                            You agree that the use of JiveCam’s services will conform to the Community Guidelines.
+                                            You agree that the use of <span className="fw-bold">JiveCam's</span> services will conform to the Community Guidelines.
                                         </p>
                                         <p>
-                                            You agree that in case of non-compliance with applicable laws, or with these terms and conditions, or with the JiveCam Privacy Policy, or with our Community Guidelines, we have the right to terminate your access or usage rights to JiveCam immediately and remove non-compliant content from JiveCam. You hereby agree that you will never use JiveCam in violation of any applicable law.
+                                            You agree that in case of non-compliance with applicable laws, or with these terms and conditions, or with the <span className="fw-bold">JiveCam</span> Privacy Policy, or with our Community Guidelines, we have the right to terminate your access or usage rights to <span className="fw-bold">JiveCam</span> immediately and remove non-compliant content from <span className="fw-bold">JiveCam</span>. You hereby agree that you will never use <span className="fw-bold">JiveCam</span> in violation of any applicable law.
                                         </p>
                                         <p>
                                             If any violation of these Terms is brought to our actual knowledge by an affected person, we shall act within thirty-six hours and where applicable, work with the user or owner of such information to delete/disable such information/Content that is in contravention of these Terms. We will not intimate you if any of the Content posted by you is taken down/deleted or your account is disabled pursuant to the above. We will preserve such information and associated records for at least one hundred and eighty days for investigation purposes. Please contact the grievance officer whose details are provided in the last section of these Terms in case of any violation or grievances.
@@ -112,10 +112,10 @@ const Termscondition = () => {
                                         </p>
                                         <h4 className="main-title2">Paid Services</h4>
                                         <p>
-                                            We allow you to use certain features on JiveCam in exchange for fees, as applicable to the relevant features or content (collectively, each a “Paid Service” and collectively the &quot;Paid Services&quot;). The Paid Services include the Call feature, gifts, and other paid services which may be offered by us from time to time.
+                                            We allow you to use certain features on <span className="fw-bold">JiveCam</span> in exchange for fees, as applicable to the relevant features or content (collectively, each a “Paid Service” and collectively the &quot;Paid Services&quot;). The Paid Services include the Call feature, gifts, and other paid services which may be offered by us from time to time.
                                         </p>
                                         <p>
-                                            Payments are accepted via the payment method offered on JiveCam and indicated by you prior to purchase. Prices for any Paid Service may change at any time, and we do not provide price protection or refunds in the event of a price reduction or promotional offering. You agree to pay for any Paid Service that you order.
+                                            Payments are accepted via the payment method offered on <span className="fw-bold">JiveCam</span> and indicated by you prior to purchase. Prices for any Paid Service may change at any time, and we do not provide price protection or refunds in the event of a price reduction or promotional offering. You agree to pay for any Paid Service that you order.
                                         </p>
                                         <p>
                                             “Taxes” mean any duties, statutory levies, withholding taxes, indirect taxes, or any other taxes associated with the use of any Paid Service, including any related penalties or interest.
@@ -148,11 +148,11 @@ const Termscondition = () => {
                                             Privacy Policy and User Data
                                         </h4>
                                         <p className="bottomborder pb-4">
-                                            JiveCam cares about your privacy. You can access our <a href="/privacy-policy">Privacy Policy</a> here.
+                                            <span className="fw-bold">JiveCam</span> cares about your privacy. You can access our <a href="/privacy-policy">Privacy Policy</a> here.
                                         </p>
                                         <h4 className="main-title2">Changes to These Terms</h4>
                                         <p className="bottomborder pb-4">
-                                            We may amend or update these Terms. We will provide you notice of amendments to these Terms, as appropriate, and update the “Last Modified” date at the top of these Terms. Your continued use of JiveCam confirms your acceptance of these Terms, as amended. If you do not agree with or accept these Terms, as amended, you must stop using JiveCam. Please review these Terms from time to time. These changes are effective immediately after they are posted on this page.
+                                            We may amend or update these Terms. We will provide you notice of amendments to these Terms, as appropriate, and update the “Last Modified” date at the top of these Terms. Your continued use of <span className="fw-bold">JiveCam</span> confirms your acceptance of these Terms, as amended. If you do not agree with or accept these Terms, as amended, you must stop using <span className="fw-bold">JiveCam</span>. Please review these Terms from time to time. These changes are effective immediately after they are posted on this page.
                                         </p>
                                         <h4 className="main-title2">Indemnity</h4>
                                         <p className="bottomborder pb-4">You agree to defend, indemnify, and hold harmless us, our parent(s), subsidiaries, and affiliates, and each of their respective officers, directors, employees, agents, and advisors from any and all claims, liabilities, costs, and expenses, including, but not limited to, attorneys’ fees and expenses, arising out of a breach by you or any user of your account of these Terms or the Privacy Policy or the Community Guidelines and your obligations, representation, and warranties therein.</p>
@@ -184,13 +184,13 @@ const Termscondition = () => {
                                         <p className="bottomborder pb-4">The validity, construction, and enforceability of these Terms and Conditions and Content Policy, Privacy Policy, and Community Guidelines shall be governed and construed in accordance with the laws of India.</p>
                                         <h4 className="main-title2">Dispute Resolution</h4>
                                         <p className="bottomborder pb-4">Either you or we may refer any dispute for final resolution by arbitration under the (Indian) Arbitration and Conciliation Act 1996. The tribunal shall consist of three (3) arbitrators. Each party shall appoint 1 (one) arbitrator and the two arbitrators shall appoint the third arbitrator. The arbitration proceedings shall be held at Bangalore, Karnataka, India. The language to be used in the arbitral proceedings shall be English. Subject to the above, the Courts at Bangalore shall have exclusive jurisdiction.</p>
-                                        <h4 className="main-title2">
+                                        <h4 className="main-title2 mb-4">
                                             Guest User Access
                                         </h4>
                                         <h5 className="fw-bold"> <span className="fw-normal">1.</span>	Overview</h5>
                                         <ul className="circle">
                                             <li>
-                                                We may allow you to use certain features on JiveCam as a guest user, without requiring email or phone number registration.
+                                                We may allow you to use certain features on <span className="fw-bold">JiveCam</span> as a guest user, without requiring email or phone number registration.
                                             </li>
                                         </ul>
                                         <h5 className="fw-bold"><span className="fw-normal">2.</span>	Capabilities and Restrictions</h5>
@@ -230,7 +230,7 @@ const Termscondition = () => {
                                             <span className="fw-normal">4.</span>	Forfeiture of In-app currency for Guest Users
                                         </h5>
                                         <ul className="bottomborder pb-4 circle">
-                                            <li><strong>Local Data Deletion: </strong>As a guest user, your Diamond balance and any other assets are not tied to any login credentials. Therefore, <strong>if you erase local data, reset your phone, or uninstall JiveCam, you will lose access to the guest user account and forfeit any remaining in-app currency permanently.</strong></li>
+                                            <li><strong>Local Data Deletion: </strong>As a guest user, your Diamond balance and any other assets are not tied to any login credentials. Therefore, <strong>if you erase local data, reset your phone, or uninstall <span className="fw-bold">JiveCam</span>, you will lose access to the guest user account and forfeit any remaining in-app currency permanently.</strong></li>
                                             <li>
                                                 <strong>Account Deletion: </strong>
                                                 If your guest account is deleted (whether by you or due to violation of these Terms), all associated in-app currency will be forfeited.
@@ -248,7 +248,7 @@ const Termscondition = () => {
                                         </h5>
                                         <ul className="circle">
                                             <li>
-                                                We reserve the right, at our sole discretion, to limit or restrict access to certain features or functionalities on JiveCam for specific categories of users (including but not limited to guest users) or based on factors such as your account status, usage history, compliance with our policies, or other criteria determined by us.
+                                                We reserve the right, at our sole discretion, to limit or restrict access to certain features or functionalities on <span className="fw-bold">JiveCam</span> for specific categories of users (including but not limited to guest users) or based on factors such as your account status, usage history, compliance with our policies, or other criteria determined by us.
                                             </li>
                                         </ul>
 
@@ -279,9 +279,7 @@ const Termscondition = () => {
                                         <h4 className="main-title2">
                                             Refund Policy
                                         </h4>
-                                        <h5>
-                                            Instructions
-                                        </h5>
+
                                         <p className="bottomborder pb-4">
                                             Please thoroughly review the Terms and Conditions before making any purchases on the Platform. <strong>JiveCam</strong> does not offer refunds for purchases made on the Platform.
                                         </p>
@@ -290,7 +288,7 @@ const Termscondition = () => {
                                             If you wish to complain about our Services or the use of our services by others, please contact our Resident Grievance Officer, whose details are mentioned below:
                                         </p>
                                         <p>
-                                            <strong>Email ID:</strong> legal@jivecam.live
+                                            <strong>Email ID:</strong> <a href="mailto:legal@jivecam.live">legal@jivecam.live</a>
                                         </p>
                                         <p>
                                             We will endeavour to redress the complaint within one month from the date of receipt of the complaint.
@@ -305,11 +303,9 @@ const Termscondition = () => {
                                             Contact Us
                                         </h4>
                                         <p>
-                                            If you have any questions or suggestions, do not hesitate to contact us at support@jivecam.live.
+                                            If you have any questions or suggestions, do not hesitate to contact us at <a href="mailto:support@jivecam.live">support@jivecam.live</a>.
                                         </p>
-                                        <h5>
-                                            Copyright © 2025 NSAH Swayantrana Technologies LLP. All Rights Reserved.
-                                        </h5>
+
                                         {/* <p>
                                             <a href="">
                                                 Privacy Policy | Refund Policy | Responsible Disclosure | Terms and Conditions and Content Policy | Report Copyright Infringement | Community Guidelines | Security Hall of Fame

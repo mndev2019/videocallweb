@@ -19,7 +19,7 @@ const Privacypolicy = () => {
                                     <div className="col-sm-12">
 
                                         {/* <h4 className="main-title mb-3">Privacy Policy</h4> */}
-                                        <h4 className="main-title2 mb-3">Introductions</h4>
+                                        <h4 className="main-title2 mb-3">Introduction</h4>
                                     </div>
                                     <div className="col-12">
                                         <p>Thanks for choosing &quot;JiveCam&quot; (&quot;JiveCam&quot;, “Service”, “we”, “us”, “our”, <strong> NSAH Swayantrana Technologies LLP</strong>). We are pleased to make our Service available to you. JiveCam includes the JiveCam App, website, features, and other associated services. JiveCam provides Image Posting, Video Posting, and other services to users. JiveCam includes social and interactive features. This is our Privacy Policy, which helps explain our information practices.</p>
@@ -208,7 +208,7 @@ const Privacypolicy = () => {
                                                 </h5>
 
                                                 <p>
-                                                    You have the right to your personal data including the content you upload. You can access your information by logging into your account. You can email us at privacy@jivecam.live with your registered email address. Please provide us a month to respond with the information and two months if the request is too complicated to fulfil within a month.
+                                                    You have the right to your personal data including the content you upload. You can access your information by logging into your account. You can email us at <a href="mailto:privacy@jivecam.live">privacy@jivecam.live</a> with your registered email address. Please provide us a month to respond with the information and two months if the request is too complicated to fulfil within a month.
                                                 </p>
                                             </li>
                                             <li>
@@ -217,7 +217,7 @@ const Privacypolicy = () => {
                                                 </h5>
 
                                                 <p>
-                                                    You also have the right to withdraw your consent at any time and request us to stop processing your data. However, withdrawing your consent will not affect the processing or use of your information prior to fulfilling your consent withdrawal request. You can email us at privacy@jivecam.live with your registered email address.
+                                                    You also have the right to withdraw your consent at any time and request us to stop processing your data. However, withdrawing your consent will not affect the processing or use of your information prior to fulfilling your consent withdrawal request. You can email us at <a href="mailto:privacy@jivecam.live">privacy@jivecam.live</a> with your registered email address.
                                                 </p>
                                             </li>
                                             <li>
@@ -226,7 +226,7 @@ const Privacypolicy = () => {
                                                 </h5>
 
                                                 <p>
-                                                    You can email us at privacy@jivecam.live with your registered email address and request the deletion of your data.
+                                                    You can email us at <a href="mailto:privacy@jivecam.live">privacy@jivecam.live</a> with your registered email address and request the deletion of your data.
                                                 </p>
                                                 <p>
                                                     We store data for as long as it is necessary to provide products and services to you and others. Information associated with your account will be kept until your account is deleted, unless we longer need the data to provide the products and services or until we are legally required to do so.
@@ -241,7 +241,7 @@ const Privacypolicy = () => {
                                                     You can opt out from our use of data from cookies and similar technologies that track your behaviour on the sites of others for ad targeting and other ad-related purposes. You can also opt out of marketing communication. We will ask you to opt-in before we use GPS or other tools to identify your precise location.
                                                 </p>
                                                 <p>
-                                                    However, you will continue to receive important emails relating to your account. You can email us at privacy@jivecam.io with your registered email address to unsubscribe from such communications.
+                                                    However, you will continue to receive important emails relating to your account. You can email us at <a href="mailto:privacy@jivecam.live">privacy@jivecam.live</a> with your registered email address to unsubscribe from such communications.
                                                 </p>
                                             </li>
                                             <li>
@@ -250,7 +250,7 @@ const Privacypolicy = () => {
                                                 </h5>
 
                                                 <p>
-                                                    In case you find any of your information to be inaccurate or incorrect in any way, you can write to us at support@jivecam.live with your registered email and we will take reasonable steps to update or rectify your information.
+                                                    In case you find any of your information to be inaccurate or incorrect in any way, you can write to us at <a href="mailto:support@jivecam.live">support@jivecam.live</a> with your registered email and we will take reasonable steps to update or rectify your information.
 
 
                                                 </p>
@@ -261,7 +261,7 @@ const Privacypolicy = () => {
                                                 </h5>
 
                                                 <p className="">
-                                                    With respect to the collection and use of your personal data, you have the right to complain to the local Data Protection Authority. You can email us at legal@jivecam.live with your registered email address.
+                                                    With respect to the collection and use of your personal data, you have the right to complain to the local Data Protection Authority. You can email us at <a href="mailto:legal@jivecam.live">legal@jivecam.live</a> with your registered email address.
                                                 </p>
                                             </li>
                                         </ul>
@@ -284,8 +284,8 @@ const Privacypolicy = () => {
                                         <p className="bottomborder pb-4">
                                             We may transfer personal information to countries other than the country in which the data was originally collected.
                                         </p>
-                                        <h4 className="main-title2">
-                                            iOS Users
+                                        <h4 className="main-title2 mb-3">
+                                            Mobile Users
                                         </h4>
                                         <h5 className="fw-bold">
                                             Collection, Use, Disclosure, Sharing, and Retention of Face Data:
@@ -331,19 +331,8 @@ const Privacypolicy = () => {
                                                     We do not store any Facial Recognition Data. Also, none of the information collected by Face Data ever leaves the user’s device. However, some data like user registration data, videos recorded by users, and user’s profile photo are stored on our servers.
                                                 </p>
                                             </li>
-                                            <li>
-                                                <h5 className="fw-bold">
-                                                    TrueDepth APIs:
-                                                </h5>
-                                                <p>
-                                                    We use TrueDepth APIs to create AR effects within the App. The only use of this information is to provide valuable user features. None of the information collected by the TrueDepth API ever leaves the user’s device. We do not share information with third parties, do not store or process in any other way the data which we accessed and used via TrueDepth API.
-                                                </p>
-                                            </li>
-                                            <li>
-                                                <p>
-                                                    placeholder mention face recognition service used, kyc service
-                                                </p>
-                                            </li>
+
+
                                         </ul>
                                     </div>
                                 </div>

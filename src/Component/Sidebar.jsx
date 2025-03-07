@@ -61,7 +61,7 @@ const Sidebar = () => {
                                     `nav-link ${isActive ? "active-link" : ""}`
                                 }
                             >
-                               Eula
+                                EULA
                             </NavLink>
                         </div>
                     </li>

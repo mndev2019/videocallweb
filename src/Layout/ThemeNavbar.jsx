@@ -41,12 +41,12 @@ const ThemeNavbar = () => {
             }, 500); // Adjust delay as needed
         }
     };
-    
+
     const scrollToSection = (section) => {
         const element = document.getElementById(section);
         if (element) {
             let offset = isSticky ? 80 : 0; // Sticky header height offset
-    
+
             // Add a bit more offset for the first section
             if (section === "feature") {
                 offset += 30;
@@ -69,10 +69,10 @@ const ThemeNavbar = () => {
             if (section === "FAQs") {
                 offset += 30;
             }
-    
+
             const elementPosition = element.getBoundingClientRect().top + window.scrollY;
             const offsetPosition = elementPosition - offset;
-    
+
             // Smooth scroll to the section with offset
             window.scrollTo({ top: offsetPosition, behavior: "smooth" });
         } else {
@@ -82,7 +82,7 @@ const ThemeNavbar = () => {
             }, 300);
         }
     };
-    
+
 
     return (
         <>
@@ -115,7 +115,7 @@ const ThemeNavbar = () => {
 
                         <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                             <ul className="navbar-nav mt-2">
-                                {["feature", "how it works", "reviews", "Get Started", "safety", "community", "FAQs"].map((section) => (
+                                {["download", "feature", "how it works", "reviews", "Get Started", "safety", "community", "FAQs"].map((section) => (
                                     <li className="nav-item" key={section}>
                                         <a
                                             className="nav-link"
