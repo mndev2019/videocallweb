@@ -1738,8 +1738,12 @@ footer .logo {
 
 @media (max-width: 768px) {
   .MyVideo {
-    height: auto;
+    height: 300px;
     /* object-fit: fill; */
+  }
+
+  .mobilelogo {
+    height: 50px !important;
   }
 }
 
