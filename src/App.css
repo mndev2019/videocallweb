@@ -1736,6 +1736,14 @@ footer .logo {
 }
 
 
+@media (max-width: 768px) {
+  .MyVideo {
+    height: auto;
+    /* object-fit: fill; */
+  }
+}
+
+
 .accordion-item,
 .accordion-button.collapsed {
   border-radius: 20px !important;
