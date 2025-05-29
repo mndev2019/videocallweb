@@ -1127,6 +1127,20 @@ section,
   margin-bottom: 0 !important;
 }
 
+.community .communitybox .diamond {
+  height: 30px;
+}
+
+.community .bottomdiv {
+  bottom: 0;
+  left: 0;
+  z-index: 50;
+  background-color: #ecc3ec38;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  color: #f854d7;
+}
+
 /*safety commitment */
 .safetycommitment .leftcol img {
   max-height: 350px;
