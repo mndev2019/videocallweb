@@ -89,6 +89,11 @@ const Footer = () => {
                                                 EULA
                                             </Link>
                                         </li>
+                                         <li className="d-block mb-2">
+                                            <Link to="/plans"  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                                                Plans
+                                            </Link>
+                                        </li>
                                         <li className="d-block mb-2">
                                             <Link to="/contact"  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
                                                 Contact

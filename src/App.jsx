@@ -11,6 +11,7 @@ import Termscondition from './Pages/Termscondition';
 import Privacypolicy from './Pages/Privacypolicy';
 import Contact from './Pages/Contact';
 import Eula from './Pages/Eula';
+import Plans from './Pages/Plans';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path='/privacy-policy' element={<Privacypolicy />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/eula' element={<Eula/>}/>
+          <Route path='/plans' element={<Plans/>}/>
         </Route>
 
 

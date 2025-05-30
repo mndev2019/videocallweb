@@ -1141,6 +1141,14 @@ section,
   color: #f854d7;
 }
 
+/* plans */
+.plans .iconbtn {
+  border: none;
+  border-radius: 50px;
+  padding: 7px 45px;
+  background: linear-gradient(to bottom right, #9B30FF, #F854D7) !important;
+}
+
 /*safety commitment */
 .safetycommitment .leftcol img {
   max-height: 350px;

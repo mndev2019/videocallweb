@@ -1,10 +1,11 @@
 // import React from 'react'
+import { Link } from 'react-router-dom'
 import diamond from '../../assets/images/diamond.png'
 
 const Plans = () => {
     return (
         <>
-            <section className=" community py-5" id="community">
+            <section className=" community py-5 plans" id="community">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
@@ -45,6 +46,14 @@ const Plans = () => {
                             </div>
                         ))}
                     </div>
+                    <div className='text-center'>
+                        <button className="iconbtn">
+                            <div className="text">
+                                <Link to="/plans" style={{ color: "white", textDecoration: "none" }}>Explore</Link>
+                            </div>
+                        </button>
+                    </div>
+
                 </div>
             </section>
         </>
