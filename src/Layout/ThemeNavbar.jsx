@@ -104,7 +104,7 @@ const ThemeNavbar = () => {
                             <img
                                 src={logo}
                                 alt="Logo"
-                                className="img-fluid logo"
+                                className="img-fluid mobilelogo logo"
                                 style={{
                                     borderRadius: "50%",
                                     height: isSticky ? "70px" : "70px",
