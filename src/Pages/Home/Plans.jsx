@@ -4,7 +4,7 @@ import diamond from '../../assets/images/diamond.png'
 const Plans = () => {
     return (
         <>
-            <section className="light-bg community py-5" id="community">
+            <section className=" community py-5" id="community">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">

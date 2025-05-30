@@ -25,8 +25,9 @@ const Home = () => {
             <Safety />
             <SafetyCommitment />
             <Community />
-            <Faq />
             <Plans />
+            <Faq />
+
 
         </>
     )
